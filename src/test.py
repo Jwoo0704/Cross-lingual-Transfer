@@ -47,14 +47,13 @@ def prepare_dataset(samples_per_lang=500, random_seed=777): # SAMPLES_PER_LANG: 
                 })
                 ground_truth[question_id] = answer_letter
         except Exception as e:
-            print(f"[-] {lang_name}({lang_code}) 데이터셋 로드 실패: {e}")
+            print(f"[-] {lang_name}({lang_code}) dataset load failed: {e}")
 
     return test_queries, ground_truth
 
 def run_experiment(test_queries, ground_truth, output_filename, summary_filename, prompt_template):
-    print(f"[*] 총 {len(test_queries)}개의 프롬프트를 준비합니다...")
+    print(f"[*] Prompt number: {len(test_queries)}")
     
-    print("[*] HuggingFace 엔진을 초기화합니다. (GPU 1개 할당 중...)")
     processor = AutoProcessor.from_pretrained(MODEL_ID)
     model = AutoModelForCausalLM.from_pretrained(
         MODEL_ID, 
@@ -68,7 +67,7 @@ def run_experiment(test_queries, ground_truth, output_filename, summary_filename
     MAX_CONTEXT_LENGTH = getattr(model.config, "max_position_embeddings", 8192)
     SAFETY_MARGIN = 8 
     MAX_INPUT_TOKENS = MAX_CONTEXT_LENGTH - MAX_NEW_TOKENS - SAFETY_MARGIN
-    print(f"[*] 모델 최대 컨텍스트: {MAX_CONTEXT_LENGTH} / 입력 허용 토큰: {MAX_INPUT_TOKENS}")
+    print(f"[*] Max context: {MAX_CONTEXT_LENGTH} / Max token: {MAX_INPUT_TOKENS}")
 
     correct_counts = {lang: 0 for lang in FULL_LANGS.values()}
     total_counts = {lang: 0 for lang in FULL_LANGS.values()}
@@ -77,7 +76,7 @@ def run_experiment(test_queries, ground_truth, output_filename, summary_filename
     overall_total = 0
     overall_failed = 0
 
-    print("[*] 모델 추론 시작 (순차 처리)...")
+    print("[*] Model generating...")
     with open(output_filename, 'w', encoding='utf-8') as f:
         
         for item in test_queries:
@@ -146,7 +145,7 @@ def run_experiment(test_queries, ground_truth, output_filename, summary_filename
                     correct_counts[target_lang] += 1
                     overall_correct += 1
 
-                print(f"[{item['id']}] 정답: {actual_ans} / 예측: {extracted_answer} -> {'정답' if is_correct else '오답'}")
+                print(f"[{item['id']}] Correct Answer: {actual_ans} / Prediction: {extracted_answer} -> {'Correct' if is_correct else 'Incorrect'}")
 
             except Exception as e:
                 result_data = {
@@ -161,7 +160,7 @@ def run_experiment(test_queries, ground_truth, output_filename, summary_filename
                 }
                 failed_counts[target_lang] += 1
                 overall_failed += 1
-                print(f"[-] [{item['id']}] 처리 실패 ({type(e).__name__}): {e}")
+                print(f"[-] [{item['id']}] failed ({type(e).__name__}): {e}")
 
             f.write(json.dumps(result_data, ensure_ascii=False) + '\n')
             f.flush()
@@ -198,16 +197,12 @@ def main():
         with open(PROMPT_FILENAME, 'r', encoding='utf-8') as pf:
             prompt_template = pf.read()
     except Exception as e:
-        print(f"[-] 프롬프트 파일 '{PROMPT_FILENAME}' 로드 실패: {e}")
+        print(f"[-] Prompt file '{PROMPT_FILENAME}' is failed to load: {e}")
         return
     
     SAMPLES_PER_LANG = 500 # 여기를 수정해야 함.
     
     test_queries, ground_truth = prepare_dataset(samples_per_lang=SAMPLES_PER_LANG)
-    """ 
-    Is this okay that 'ground_truth' is used in this situation?
-    In this situation, 'ground_truth' doesn't mean that the prompt pair (lang, prompt).
-    """
     
     current_time = int(time.time())
     prompt_filename = PROMPT_FILENAME.split('.')[0] 
