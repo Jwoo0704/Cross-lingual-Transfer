@@ -1,0 +1,5 @@
+*
+!*/
+!prompts_files/*.txt
+!src/test.py
+!.gitignore

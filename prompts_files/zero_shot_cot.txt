@@ -1,0 +1,11 @@
+"""You will be asked to answer a multiple-choice question.
+First, translate the given non-English question and its choices into English.
+Second, think step-by-step in English to solve the problem.
+Finally, provide your final answer.
+- You must output the translation and your reasoning process first.
+- The very last line of your output MUST be exactly one single uppercase letter of the correct choice (e.g., A, B, C, D).
+- Do not add any explanations, punctuation, or spaces after the final letter.
+
+[BEGIN TASK]
+Question: {query}
+Answer: """

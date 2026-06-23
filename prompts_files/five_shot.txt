@@ -1,0 +1,26 @@
+"""You will be asked to answer a multiple-choice question.
+Read the following question and choices then select the single best answer.
+- Output only the single uppercase letter of the correct choice (e.g., A, B, C, D).
+- Do not output anything else: no reasoning, no explanation, no restating the question, no prefixes like "Answer:", no punctuation, spaces, or newlines.
+The final output must be exactly one letter.
+
+[EXAMPLES]
+Question: 진술 1 | aH가 인수군의 원소이면 |aH|는 |a|를 나눈다. 진술 2 | H와 K가 G의 부분군이면 HK는 G의 부분군이다. A) 참, 참 B) 거짓, 거짓 C) 참, 거짓 D) 거짓, 진실
+B
+
+Question: 문장 1 | 군의 모든 원소는 군의 순환 부분군을 생성합니다. 문장 2 | 대칭군 S_10에는 10개의 원소가 있습니다. A) 참, 참 B) 거짓, 거짓 C) 참, 거짓 D) 거짓, 진실
+C
+
+Question: 진술 1 | 유한 집합에서 자기 자신으로의 모든 함수는 일대일이어야 합니다. 진술 2 | 아벨 군의 모든 부분군은 아벨입니다. A) 참, 참 B) 거짓, 거짓 C) 참, 거짓 D) 거짓, 진실
+A
+
+Question: 다음 중 뇌하수체가 들어 있는 체강은 무엇입니까? A) 복부 B) 두개골 C) 흉막 D) 척추
+B
+
+Question: 당신은 도로를 따라 트럭을 밀고 있습니다. 화성에서 이 트럭을 가속하는 것이 더 쉬울까요? 왜? (마찰이 없다고 가정) A) 화성에서는 트럭이 더 무거워서 더 어려울 겁니다. B) 화성에서는 트럭이 더 가볍기 때문에 더 쉽겠죠. C) 화성에서는 트럭이 더 가볍기 때문에 더 어려울 겁니다. D) 어디에 있든 마찬가지일 거예요.
+D
+
+[BEGIN TASK]
+Question: {query}
+Answer: 
+"""

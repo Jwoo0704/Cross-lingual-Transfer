@@ -1,0 +1,62 @@
+"""Answer the following questions written in non-English by explicitly showing a step-by-step translation process into English, then provide the final answer.
+
+**Core Behaviors**
+1. Mandatory Opening Self-Instruction
+- Always begin with the exact sentence: ""Let's gradually translate this non-English query into English, then think in English, and finally answer the question.""
+2. Gradual Code-Switching Output:
+- Show the transformation from the original query to English in 5 steps (0%, 25%, 50%, 75%, 100%).
+- Each step progressively replaces more non-English words with English until the query is fully natural English.
+3. Answer Format:
+- After explicitly showing the 5-step translation, output ONLY the final answer as a single uppercase letter on a new line.
+- The translation process MUST be output before the final letter. Do not skip straight to the answer.
+
+[EXAMPLES]
+EXAMPLE 1
+Let's gradually translate this non-English query into English, then think in English, and finally answer the question.
+(0%) 진술 1 | $aH$가 인수군의 원소이면 $|aH|$는 $|a|$를 나눈다. 진술 2 | $H$와 $K$가 $G$의 부분군이면 $HK$는 $G$의 부분군이다. A) 참, 참 B) 거짓, 거짓 C) 참, 거짓 D) 거짓, 진실
+(25%) Statement 1 | $aH$가 factor group의 원소이면 $|aH|$는 $|a|$를 divide한다. Statement 2 | $H$와 $K$가 $G$의 subgroup이면 $HK$는 $G$의 subgroup이다. A) True, True B) False, False C) True, False D) False, True
+(50%) Statement 1 | $aH$가 factor group의 element이면 $|aH|$는 $|a|$를 divide한다. Statement 2 | $H$ and $K$가 $G$의 subgroup이면 $HK$는 subgroup of $G$이다. A) True, True B) False, False C) True, False D) False, True
+(75%) Statement 1 | If $aH$ is an element of a factor group이라면, $|aH|$ divides $|a|$한다. Statement 2 | If $H$ and $K$ are subgroups of $G$라면, $HK$ is a subgroup of $G$이다. A) True, True B) False, False C) True, False D) False, True
+(100%) Statement 1 | If $aH$ is an element of a factor group, $|aH|$ divides $|a|$. Statement 2 | If $H$ and $K$ are subgroups of $G$, then $HK$ is a subgroup of $G$. A) True, True B) False, False C) True, False D) False, True
+B
+
+EXAMPLE 2
+Let's gradually translate this non-English query into English, then think in English, and finally answer the question.
+(0%) 문장 1 | 군의 모든 원소는 군의 순환 부분군을 생성합니다. 문장 2 | 대칭군 $S_{10}$에는 10개의 원소가 있습니다. A) 참, 참 B) 거짓, 거짓 C) 참, 거짓 D) 거짓, 진실
+(25%) Statement 1 | group의 모든 원소는 group의 cyclic subgroup을 생성합니다. Statement 2 | symmetric group $S_{10}$에는 10개의 원소가 있습니다. A) True, True B) False, False C) True, False D) False, True
+(50%) Statement 1 | group의 모든 element는 group의 cyclic subgroup을 generate합니다. Statement 2 | The symmetric group $S_{10}$에는 10 elements가 있습니다. A) True, True B) False, False C) True, False D) False, True
+(75%) Statement 1 | Every element of a group generates a cyclic subgroup of the group합니다. Statement 2 | The symmetric group $S_{10}$ has 10 elements합니다. A) True, True B) False, False C) True, False D) False, True
+(100%) Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group $S_{10}$ has 10 elements. A) True, True B) False, False C) True, False D) False, True
+C
+
+EXAMPLE 3
+Let's gradually translate this non-English query into English, then think in English, and finally answer the question.
+(0%) 진술 1 | 유한 집합에서 자기 자신으로의 모든 함수는 일대일이어야 합니다. 진술 2 | 아벨 군의 모든 부분군은 아벨입니다. A) 참, 참 B) 거짓, 거짓 C) 참, 거짓 D) 거짓, 진실
+(25%) Statement 1 | finite set에서 자기 자신으로의 모든 function은 one-to-one이어야 합니다. Statement 2 | abelian group의 모든 subgroup은 abelian입니다. A) True, True B) False, False C) True, False D) False, True
+(50%) Statement 1 | Every function from a finite set에서 itself로 가는 것은 one-to-one이어야 합니다. Statement 2 | Every subgroup of an abelian group은 abelian입니다. A) True, True B) False, False C) True, False D) False, True
+(75%) Statement 1 | Every function from a finite set to itself must be one-to-one이어야 합니다. Statement 2 | Every subgroup of an abelian group is abelian합니다. A) True, True B) False, False C) True, False D) False, True
+(100%) Statement 1 | Every function from a finite set to itself must be one-to-one. Statement 2 | Every subgroup of an abelian group is abelian. A) True, True B) False, False C) True, False D) False, True
+A
+
+EXAMPLE 4
+Let's gradually translate this non-English query into English, then think in English, and finally answer the question.
+(0%) 다음 중 뇌하수체가 들어 있는 체강은 무엇입니까? A) 복부 B) 두개골 C) 흉막 D) 척추
+(25%) 다음 중 pituitary gland가 들어 있는 body cavity는 무엇입니까? A) Abdominal B) Cranial C) Pleural D) Spinal
+(50%) Which of the following body cavities 안에 pituitary gland가 들어 있습니까? A) Abdominal B) Cranial C) Pleural D) Spinal
+(75%) Which of the following body cavities contains the pituitary gland합니까? A) Abdominal B) Cranial C) Pleural D) Spinal
+(100%) Which of the following is the body cavity that contains the pituitary gland? A) Abdominal B) Cranial C) Pleural D) Spinal
+B
+
+EXAMPLE 5
+Let's gradually translate this non-English query into English, then think in English, and finally answer the question.
+(0%) 당신은 도로를 따라 트럭을 밀고 있습니다. 화성에서 이 트럭을 가속하는 것이 더 쉬울까요? 왜? (마찰이 없다고 가정) A) 화성에서는 트럭이 더 무거워서 더 어려울 겁니다. B) 화성에서는 트럭이 더 가볍기 때문에 더 쉽겠죠. C) 화성에서는 트럭이 더 가볍기 때문에 더 어려울 겁니다. D) 어디에 있든 마찬가지일 거예요.
+(25%) 당신은 road를 따라 truck을 push하고 있습니다. Mars에서 이 truck을 accelerate하는 것이 더 쉬울까요? Why? (friction이 없다고 assume) A) Mars에서는 truck이 더 heavier해서 더 어려울 겁니다. B) Mars에서는 truck이 더 lighter하기 때문에 더 쉽겠죠. C) Mars에서는 truck이 더 lighter하기 때문에 더 어려울 겁니다. D) 어디에 있든 same일 거예요.
+(50%) You are pushing a truck along a road하고 있습니다. Mars에서 이 truck을 accelerate하는 것이 easier할까요? Why? (Assume no friction) A) Mars에서는 truck이 heavier하기 때문에 harder할 겁니다. B) Mars에서는 truck이 lighter하기 때문에 easier하겠죠. C) Mars에서는 truck이 lighter하기 때문에 harder할 겁니다. D) It would be the same 어디에 있든지.
+(75%) You are pushing a truck along a road하고 있습니다. Would it be easier to accelerate this truck on Mars할까요? Why? (Assume no friction) A) It would be harder on Mars because the truck is heavier할 겁니다. B) It would be easier on Mars because the truck is lighter하겠죠. C) It would be harder on Mars because the truck is lighter할 겁니다. D) It would be the same no matter where you are할 거예요.
+(100%) You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction) A) It would be harder because the truck is heavier on Mars. B) It would be easier because the truck is lighter on Mars. C) It would be harder because the truck is lighter on Mars. D) It would be the same wherever you are.
+D
+
+[BEGIN TASK]
+Question: {query}
+Answer: 
+"""

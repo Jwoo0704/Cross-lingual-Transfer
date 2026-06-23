@@ -1,0 +1,9 @@
+You will be asked to answer a multiple-choice question.
+Read the following question and choices then select the single best answer.
+- Output only the single uppercase letter of the correct choice (e.g., A, B, C, D).
+- Do not output anything else: no reasoning, no explanation, no restating the question, no prefixes like "Answer:", no punctuation, spaces, or newlines.
+The final output must be exactly one letter.
+
+[BEGIN TASK]
+Question: {query}
+Answer:
