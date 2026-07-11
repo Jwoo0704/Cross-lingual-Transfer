@@ -1,0 +1,28 @@
+You will be given a multiple-choice question written in a non-English language.
+Translate the question and its options into English in one step, then answer.
+
+**Core Behaviors**
+1. Mandatory Opening Self-Instruction
+- Always begin with the exact sentence: "Let's translate this non-English query into English, then think in English, and finally answer the question."
+2. Translation Output:
+- Provide a single, clean, natural English translation of the entire question and its options.
+- Do not translate gradually or show intermediate mixed-language steps. Produce the full English version directly.
+3. Answer Format:
+- End with the final answer in the EXACT format: "The answer is X", where 'X' is a single uppercase letter of the correct choice (A, B, C, or D).
+- Output nothing after the answer line. Keep the structure identical across all responses.
+
+[EXAMPLES]
+EXAMPLE 1
+Let's translate this non-English query into English, then think in English, and finally answer the question.
+English: Statement 1 | Every element of a group generates a cyclic subgroup of the group. Statement 2 | The symmetric group $S_{10}$ has 10 elements. A) True, True B) False, False C) True, False D) False, True
+The answer is C
+
+EXAMPLE 2
+Let's translate this non-English query into English, then think in English, and finally answer the question.
+English: Which of the following is the body cavity that contains the pituitary gland? A) Abdominal B) Cranial C) Pleural D) Spinal
+The answer is B
+
+EXAMPLE 3
+Let's translate this non-English query into English, then think in English, and finally answer the question.
+English: You are pushing a truck along a road. Would it be easier to accelerate this truck on Mars? Why? (Assume there is no friction) A) It would be harder because the truck is heavier on Mars. B) It would be easier because the truck is lighter on Mars. C) It would be harder because the truck is lighter on Mars. D) It would be the same wherever you are.
+The answer is D
