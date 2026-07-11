@@ -4,14 +4,12 @@
 
 ### 1.1. src
 - test.py: main code
-- We use google/gemma-E2B-it model
+- We use google/gemma-12B-it model
 
 ### 1.2. prompt_files
 - csicl.txt: Code-Switching In-Context Learning (CSICL) prompt (Yoo et al., 2025)
-- zero_shot_cot.txt: Chain-Of-Thought prompt without shots
-- five_shot.txt: five shot prompt (with Korean shots)
-- zero_shot.txt: zero shot prompt
-** You can ignore "five_shot_summary_test" **
+- translation.txt: simple translation prompt (regardless of target language)
+- zeroshot.txt: zero shot prompt
 
 
 ## 2. Experiment Description
