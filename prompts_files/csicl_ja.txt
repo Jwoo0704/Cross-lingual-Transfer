@@ -1,0 +1,60 @@
+Answer the following questions written in non-English by explicitly showing a step-by-step translation process into English, then provide the final answer.
+
+**Core Behaviors**
+1. Mandatory Opening Self-Instruction
+- Always begin with the exact sentence: "Let's gradually translate this non-English query into English, then think in English, and finally answer the question."
+2. Gradual Code-Switching Output:
+- Show the transformation from the original query to English in exactly 5 steps, labelled (0%), (25%), (50%), (75%), and (100%), one per line.
+- Each step progressively replaces more non-English words with English until the query is fully natural English.
+- End with a clean, natural English rendering of the question on the (100%) line.
+- These five lines are the only translation output. Do NOT add commentary, notes, or labels other than the percentage markers.
+3. Answer Format:
+- Immediately after the (100%) line, output the final answer with no intervening text, in the exact format: "The answer is X", where 'X' is a single uppercase letter of the correct choice (A, B, C, or D).
+- Do NOT output any reasoning, explanation, working, calculation, or restatement of the question at any point. No text is allowed between the (100%) line and the answer line, and nothing may follow the answer line.
+- Only the five gradual translation steps are explicitly output; no reasoning is shown. Keep the structure identical across all responses: the opening sentence, exactly five percentage-labelled lines, and "The answer is X".
+
+[EXAMPLES]
+EXAMPLE 1
+Let's gradually translate this non-English query into English, then think in English, and finally answer the question.
+(0%) 循環血液量減少性ショックでは、心拍数と血圧の変化に反映されるまでに何パーセントの血液が失われる可能性がありますか？ A)5% B)10% C)20% D)30%
+(25%) Hypovolaemic shockでは、心拍数と血圧の変化に反映されるまでに何percentageのbloodが失われる可能性がありますか？ A)5% B)10% C)20% D)30%
+(50%) Hypovolaemic shockでは、heart rateとblood pressureのchangeに反映されるまでに何percentageのbloodが失われる可能性がありますか？ A)5% B)10% C)20% D)30%
+(75%) Hypovolaemic shockでは、heart rateとblood pressureのchangeにreflectされるまでに何percentageのbloodがloseされるpossibilityがありますか？ A)5% B)10% C)20% D)30%
+(100%) In hypovolaemic shock, what percentage of the blood can be lost before this is reflected in changes in heart rate and blood pressure? A)5% B)10% C)20% D)30%
+The answer is D
+
+EXAMPLE 2
+Let's gradually translate this non-English query into English, then think in English, and finally answer the question.
+(0%) ジョンは土産品のハットピンを2つの山に分けた。2つの山のピン数は同数であった。彼は弟に1つの山の3分の1の2分の1を渡した。ジョンの手元には66本のピンが残っている。ジョンはもともと何本のピンを持っていたか。 A)792 B)66 C)396 D)72
+(25%) Johnは土産品のhat pinをtwoつのpileに分けた。Twoつのpileのピン数は同数であった。Heはbrotherにoneつのpileの3分の1の2分の1を渡した。Johnの手元には66本のpinが残っている。Johnはもともと何本のpinを持っていたか。 A)792 B)66 C)396 D)72
+(50%) Johnはsouvenirのhat pinをtwoつのpileに分けた。Twoつのpileのpin numberはequal numberであった。Heはbrotherにoneつのpileのone-thirdのone-halfを渡した。Johnの手元には66本のpinが残っている。Johnはもともと何本のpinを持っていたか。 A)792 B)66 C)396 D)72
+(75%) Johnはsouvenirのhat pinをtwoつのpileにdivideした。Twoつのpileのpin numberはequal numberであった。Heはbrotherにoneつのpileのone-thirdのone-halfをgiveした。Johnのhandには66本のpinがremainしている。Johnはoriginally how many本のpinをhaveしていたか。 A)792 B)66 C)396 D)72
+(100%) John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A)792 B)66 C)396 D)72
+The answer is D
+
+EXAMPLE 3
+Let's gradually translate this non-English query into English, then think in English, and finally answer the question.
+(0%) 57歳男性は肺扁平上皮癌に対する放射線治療を受けた。治療にもかかわらず腫瘍の大きさは徐々に増大し、6ヵ月後に死亡した。患者の腫瘍細胞はp53遺伝子（TP53）に点突然変異を有し、不活性遺伝子産物が産生されていた。この所見に基づくと、放射線療法にもかかわらず腫瘍が徐々に増殖する原因として、細胞周期停止時の欠陥が考えられるのは次のうちどの期か？ A)G0期 B)G1期 C)G2期 D)M期
+(25%) 57-year-old manは肺のsquamous cell carcinomaに対するradiation therapyを受けた。therapyにもかかわらずtumorの大きさは徐々に増大し、6 months後に死亡した。患者のtumor cellはp53 gene（TP53）に点突然変異を有し、不活性なgene productが産生されていた。この所見に基づくと、radiation therapyにもかかわらずtumorが徐々に増殖する原因として、cell cycle停止時の欠陥が考えられるのは次のうちどの期か？ A)G0期 B)G1期 C)G2期 D)M期
+(50%) 57-year-old manはlungのsquamous cell carcinomaに対するradiation therapyをreceiveした。therapyにもかかわらずtumorのsizeは徐々にincreaseし、6 months後にdieした。patientのtumor cellはp53 gene（TP53）にpoint mutationを有し、inactiveなgene productがproduceされていた。このfindingに基づくと、irradiation therapyにもかかわらずtumorが徐々にgrowする原因として、cell cycle arrest時のdefectが考えられるのはfollowingのうちどの期か？ A)G0 B)G1 C)G2 D)M
+(75%) 57-year-old manはlungのsquamous cell carcinomaに対するradiation therapyをreceiveした。therapyにもかかわらずtumorのsizeはprogressivelyにincreaseし、6 months後にdieした。patientのtumor cellはp53 gene（TP53）にpoint mutationをcontainし、inactive gene productがproduceされていた。このfindingにbaseすると、irradiation therapyにもかかわらずtumorがprogressivelyにgrowするcauseとして、cell cycle arrest時のdefectがconsiderされるのはfollowingのうちどのphaseか？ A)G0 B)G1 C)G2 D)M
+(100%) A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), which results in an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A)G0 B)G1 C)G2 D)M
+The answer is B
+
+EXAMPLE 4
+Let's gradually translate this non-English query into English, then think in English, and finally answer the question.
+(0%) QTL解析は、_______に使用する。 A)遺伝的交雑における複合形質に関連する染色体領域を特定するため B)どの遺伝子が発生段階で発現するかを判定するため C)細菌ウイルスの遺伝子をマッピングするため D)RNAポリメラーゼ結合部位を特定するため
+(25%) QTL analysisは、_______に使用する。 A)genetic crossesにおけるcomplex traitsに関連する染色体領域を特定するため B)どのgenesが発生段階で発現するかを判定するため C)bacterial virusesのgenesをマッピングするため D)RNA polymerase binding sitesを特定するため
+(50%) QTL analysisは、_______に使用する。 A)genetic crossesにおけるcomplex traitsに関連するchromosomal regionsをidentifyするため B)どのgenesがdevelopmental stageで発現するかを判定するため C)bacterial virusesのgenesをmapするため D)RNA polymerase binding sitesをidentifyするため
+(75%) QTL analysisは、_______にuseする。 A)genetic crossesにおけるcomplex traitsにassociateするchromosomal regionsをidentifyするため B)which genesがdevelopmental stageでexpressするかをdetermineするため C)bacterial virusesのgenesをmapするため D)RNA polymerase binding sitesをidentifyするため
+(100%) QTL analysis is used to _______. A)identify chromosomal regions associated with complex traits in genetic crosses B)determine which genes are expressed at a developmental stage C)map genes of bacterial viruses D)identify RNA polymerase binding sites
+The answer is A
+
+EXAMPLE 5
+Let's gradually translate this non-English query into English, then think in English, and finally answer the question.
+(0%) 高エネルギー電子が金属標的に入射すると、連続した背景に明確な線として特性X線が発生する。特性X線が発生する過程は次のうちどれか。 A)電子がチェレンコフ放射を発生させる B)電子が金属中のフォノンと衝突する C)電子が金属原子に生じた内殻空孔を埋める D)電子が陽子と結合して中性子を形成する
+(25%) 高エネルギーelectronが金属targetに入射すると、連続したbackgroundに明確なlineとして特性X rayが発生する。特性X rayが発生する過程は次のうちどれか。 A)electronがチェレンコフ放射を発生させる B)electronが金属中のphononと衝突する C)electronが金属atomに生じた内殻vacancyを埋める D)electronが陽子と結合して中性子を形成する
+(50%) High-energy electronがmetal targetに入射すると、continuous backgroundにsharp lineとしてcharacteristic X rayが発生する。Characteristic X rayが発生するprocessは次のうちどれか。 A)electronがČerenkov radiationを発生させる B)electronがmetal中のphononと衝突する C)electronがmetal atomに生じたinner shell vacancyを埋める D)electronがprotonと結合してneutronを形成する
+(75%) High-energy electronがmetal targetにbombardすると、continuous backgroundにsharp lineとしてcharacteristic X rayがproduceする。Characteristic X rayがproduceするprocessはfollowingのうちwhichか。 A)electronがČerenkov radiationをproduceさせる B)electronがmetal中のphononとcollideする C)electronがmetal atomにcreateされたinner shell vacancyをfillする D)electronがprotonとcombineしてneutronをformする
+(100%) Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A)Electrons producing Čerenkov radiation B)Electrons colliding with phonons in the metal C)Electrons filling inner shell vacancies that are created in the metal atoms D)Electrons combining with protons to form neutrons
+The answer is C
