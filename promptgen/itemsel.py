@@ -28,7 +28,10 @@ def build_pool(cfg: dict, cache_dir: str | None = None) -> list[str]:
 
 def split_pool(ids: list[str], cfg: dict) -> tuple[list[str], list[str]]:
     sel = cfg["item_selection"]
-    n, k = sel["eval_n"], sel["demo_pool_size"]
+    k = sel["demo_pool_size"]
+    n = sel["eval_n"]
+    if n in (None, "all", 0):
+        n = len(ids) - k
 
     if len(ids) < n + k:
         sys.exit(f"[error] pool 이 {len(ids)}개뿐이라 평가 {n} + 데모 {k} 를 못 뗍니다.")

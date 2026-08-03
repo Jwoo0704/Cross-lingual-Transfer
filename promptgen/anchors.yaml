@@ -4,7 +4,7 @@ item_selection:
     cultural_sensitivity_label: CA
   reference_lang: en
   seed: 777
-  eval_n: 300
+  eval_n: all
   demo_pool_size: 20
 
 demos:

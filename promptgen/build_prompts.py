@@ -26,6 +26,7 @@ def sha8(t: str) -> str:
 
 def build_input(cfg: dict, eval_ids: list, cache_dir: str | None) -> pd.DataFrame:
     chosen = set(eval_ids)
+    rank_of = {sid: i + 1 for i, sid in enumerate(eval_ids)}
     rows = []
     for a in cfg["anchors"]:
         code, name = a["code"], a["name"]
@@ -42,8 +43,9 @@ def build_input(cfg: dict, eval_ids: list, cache_dir: str | None) -> pd.DataFram
             if ans not in ("A", "B", "C", "D"):
                 print(f"[!] {code}_{sid}: 비정상 레이블 {item.get('answer')!r} → 제외")
                 continue
-            rows.append({"id": itemsel.make_id(code, sid), "language": name,
-                         "query": itemsel.format_query(item), "answer": ans})
+            rows.append({"rank": rank_of[sid], "id": itemsel.make_id(code, sid),
+                         "language": name, "query": itemsel.format_query(item),
+                         "answer": ans})
     df = pd.DataFrame(rows)
     if df["id"].duplicated().any():
         sys.exit(f"[error] id 중복: {df.loc[df['id'].duplicated(),'id'].head(3).tolist()}")
@@ -52,8 +54,9 @@ def build_input(cfg: dict, eval_ids: list, cache_dir: str | None) -> pd.DataFram
 
 def write_input_csv(df: pd.DataFrame, out: Path) -> None:
     p = out / "input.csv"
-    df[["id", "language", "query"]].to_csv(p, index=False, quoting=csv.QUOTE_ALL,
-                                           encoding="utf-8", lineterminator="\n")
+    df = df.sort_values(["rank", "language"]).reset_index(drop=True)
+    df[["rank", "id", "language", "query"]].to_csv(p, index=False, quoting=csv.QUOTE_ALL,
+                                                   encoding="utf-8", lineterminator="\n")
     back = pd.read_csv(p, dtype=str, keep_default_na=False)
     if not back["query"].equals(df["query"].reset_index(drop=True).astype(str)):
         sys.exit("[error] input.csv 왕복 검증 실패")
