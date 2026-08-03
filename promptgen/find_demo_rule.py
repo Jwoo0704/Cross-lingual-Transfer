@@ -1,17 +1,3 @@
-#!/usr/bin/env python3
-"""
-"마지막 20문항" 이 어떤 정렬 기준이었는지 역추적한다.
-
-기록된 데모 5문항이 어느 (풀 정의 × 정렬 기준) 조합에서 마지막 20개 안에 들어가는지
-전부 돌려보고, 각 문항이 실제로 끝에서 몇 번째인지 위치까지 찍는다.
-어느 조합에서도 안 들어가면 "마지막 20"이 아닌 다른 규칙으로 뽑힌 것이다.
-
-사용
-  pip install datasets pandas
-  python find_demo_rule.py
-  python find_demo_rule.py --local path/to/global_mmlu_en.csv   # 이미 받아둔 파일이 있으면
-"""
-
 from __future__ import annotations
 
 import argparse
