@@ -1,27 +1,3 @@
-#!/usr/bin/env python3
-"""
-anchor별 데모(shots/{code}.json)를 자동 생성한다.
-
-  단계 1  extract : Global-MMLU 병렬 코퍼스에서 anchor 원문(0%)과 영어 원문(100%)을 조회.
-                   생성 없음 — 조회만 하므로 anchor를 늘려도 비용이 0이다.
-  단계 2  switch  : 25/50/75% 코드스위칭 단계만 LLM으로 생성하고, 혼입 비율을 측정해
-                   허용 범위를 벗어나면 재시도한다. 통과한 결과는 JSON에 동결한다.
-  단계 3  report  : anchor × 단계별 실측 혼입 비율 표를 출력. 논문 부록용.
-
-사용
-  python make_demos.py extract
-  python make_demos.py switch  --anchors ko ja fr hi tr        # GEMINI_API_KEY 필요
-  python make_demos.py switch  --dry-run                        # 생성 없이 빈 칸만 만들기
-  python make_demos.py report
-  python make_demos.py fidelity                                  # 데모 번역 충실도
-
-주의
-  25/50/75% 를 LLM으로 만들면 생성기가 anchor마다 잘하고 못하는 편차가 생긴다.
-  그 편차는 "데모 정렬 투명성"이라는 가설과 정확히 같은 축이라, 통제하지 않으면
-  가설이 생성기 성능의 부산물이 될 수 있다. report 로 뽑히는 실측 비율표를
-  부록에 싣고 anchor 간 편차를 명시하는 것을 전제로 이 경로를 쓸 것.
-"""
-
 from __future__ import annotations
 
 import argparse
@@ -75,12 +51,10 @@ MARKUP_RE = re.compile(r"\*\*(.+?)\*\*|__(.+?)__|`(.+?)`", re.DOTALL)
 
 
 def strip_markup(t: str) -> str:
-    """모델이 교체어를 **볼드** 등으로 감싸는 경우가 있다. 그대로 두면 프롬프트가 오염된다."""
     return MARKUP_RE.sub(lambda m: next(g for g in m.groups() if g is not None), t).strip()
 
 
 def parse_stages(text: str) -> dict:
-    """한 응답에서 25/50/75 세 단계를 뽑아낸다."""
     if not text.rstrip().endswith("<<<END>>>"):
         text = text.rstrip() + "\n<<<END>>>"
     return {pct: strip_markup(body) for pct, body in STAGE_RE.findall(text)}
@@ -95,10 +69,7 @@ def render_query(row: pd.Series) -> str:
     return QUERY_FORMAT.format(**{c: str(row[c]) for c in cols})
 
 
-# ------------------------------------------------------------------ extract
-
 def cmd_extract(args, cfg) -> None:
-    """데모 풀에서 고른 문항의 anchor 원문(0%)과 영어 원문(100%)을 조회한다."""
     pool = itemsel.build_pool(cfg, args.cache_dir)
     demo_pool, _ = itemsel.split_pool(pool, cfg)
     demo_ids = itemsel.resolve_demos(cfg, demo_pool)
@@ -142,13 +113,10 @@ def cmd_extract(args, cfg) -> None:
         print(f"[ok] {out}  ({len(items)} items, 0%/100% 확보)")
 
 
-# ------------------------------------------------------------------ switch
-
 _LAST_CALL = [0.0]
 
 
 def _throttle() -> None:
-    """무료 등급은 분당 요청 수가 매우 낮다(모델별 5 RPM 등). 간격을 강제한다."""
     rpm = float(os.environ.get("RPM", "5"))
     gap = 60.0 / max(rpm, 0.1)
     wait = gap - (time.monotonic() - _LAST_CALL[0])
@@ -158,14 +126,6 @@ def _throttle() -> None:
 
 
 def call_llm(system: str, user: str) -> str:
-    """Gemini API 호출.
-
-    SWITCH_MODEL     : 모델 이름 (기본 gemini-3.5-flash)
-    THINKING_LEVEL   : low / medium / high — 채팅 UI의 'Extended'가 high 에 해당.
-                       Gemini 3.5 Flash 기본값은 medium 이므로 명시적으로 올린다.
-
-    Gemini 3.x 는 temperature / top_p / top_k 를 받지 않으므로 보내지 않는다.
-    """
     from google import genai
     from google.genai import types
 
@@ -206,7 +166,6 @@ def call_llm(system: str, user: str) -> str:
 
 
 def cmd_switch(args, cfg) -> None:
-    """항목당 API 호출 1회로 25/50/75% 를 함께 받고, 점진성으로 판정한다."""
     tol = {int(k): v for k, v in cfg["stage_tolerance"].items()}
     prog = dict(cfg.get("progression", {"min_step": 0.04, "min_span": 0.25}))
     for k in ("min_step", "min_span"):
@@ -274,13 +233,13 @@ def cmd_switch(args, cfg) -> None:
                     break
                 print(f"  [retry {attempt}/{args.retries}] {code}/{item['sample_id']}: {why}")
             except (KeyboardInterrupt, Exception) as e:
-                # 여기까지 통과한 항목은 반드시 남긴다. 중단해도 재실행하면 이어서 진행된다.
+
                 save()
                 print(f"\n[중단] {code}/{item['sample_id']} 처리 중 {type(e).__name__}: {e}")
                 print(f"[ok] {path} — 여기까지 저장됨. 다시 실행하면 이어서 진행합니다.")
                 raise
 
-            save()   # 항목 단위로 즉시 저장
+            save()
             if not ok:
                 from mixing import tokenize
                 A, E = set(tokenize(anc)), set(tokenize(eng))
@@ -296,11 +255,6 @@ def cmd_switch(args, cfg) -> None:
 
 
 def cmd_batch(args, cfg) -> None:
-    """anchor 하나당 붙여넣기용 프롬프트 1개를 파일로 뽑는다.
-
-    API 키가 없어 채팅 UI(Gemini/ChatGPT 구독 등)로 작업할 때 쓴다.
-    데모 5문항 × 3단계 = 15개를 한 번에 요청하므로 anchor당 왕복 1회로 끝난다.
-    """
     outdir = HERE / "batch"
     outdir.mkdir(exist_ok=True)
     codes = args.anchors or [a["code"] for a in cfg["anchors"]]
@@ -336,7 +290,6 @@ def cmd_batch(args, cfg) -> None:
 
 
 def cmd_ingest(args, cfg) -> None:
-    """batch/<code>_response.txt 를 파싱해 shots JSON에 넣고 비율을 검증한다."""
     outdir = HERE / "batch"
     tol = {int(k): v for k, v in cfg["stage_tolerance"].items()}
     codes = args.anchors or [a["code"] for a in cfg["anchors"]]
@@ -419,12 +372,6 @@ def cmd_report(args, cfg) -> None:
 
 
 def cmd_fidelity(args, cfg) -> None:
-    """데모 5문항의 anchor 원문 ↔ 영어 원문 의미 유사도를 재서 번역 충실도를 본다.
-
-    Global-MMLU 스키마에는 번역 출처(사람/기계) 열이 없다. is_annotated / CA 는
-    문항 내용에 대한 라벨이지 번역 품질 정보가 아니다. 그래서 직접 측정한다.
-    낮게 나온 anchor는 데모가 깨졌다는 뜻이므로 제외하거나 공변량으로 남긴다.
-    """
     try:
         from sentence_transformers import SentenceTransformer
         import numpy as np
