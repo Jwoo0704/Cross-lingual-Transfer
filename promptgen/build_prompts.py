@@ -1,22 +1,3 @@
-#!/usr/bin/env python3
-"""
-anchors.yaml + shots/*.json 을 읽어 prompt.txt 와 input.csv 를 만든다.
-
-문항 렌더링과 id 형식은 기존 실험 코드(src/test.py)와 동일하다.
-  query : "질문 A) .. B) .. C) .. D) .."
-  id    : "{lang_code}_{sample_id}"
-
-산출물
-  out/input.csv                        id, language, query   (전 조건 공용, 1개)
-  out/answer_key.csv                   id, answer            (전달 X, 채점용)
-  out/{condition}_{anchor}/prompt.txt  {language}, {query} 자리표시자 포함
-  out/manifest.json                    선별 규칙·데모 id·템플릿 해시
-
-사용
-  python build_prompts.py --out out
-  python build_prompts.py --out out --anchors ko ja --conditions csicl
-"""
-
 from __future__ import annotations
 
 import argparse
@@ -43,10 +24,7 @@ def sha8(t: str) -> str:
     return hashlib.sha256(t.encode("utf-8")).hexdigest()[:8]
 
 
-# ---------------------------------------------------------------- input.csv
-
 def build_input(cfg: dict, eval_ids: list, cache_dir: str | None) -> pd.DataFrame:
-    """28개 언어 × 평가 문항을 모아 input.csv 용 DataFrame 을 만든다."""
     chosen = set(eval_ids)
     rows = []
     for a in cfg["anchors"]:
@@ -56,7 +34,7 @@ def build_input(cfg: dict, eval_ids: list, cache_dir: str | None) -> pd.DataFram
         missing = chosen - set(by_id)
         if missing:
             print(f"[!] {name}({code}): 누락 {len(missing)}개 → 제외")
-        for sid in eval_ids:                       # 순서를 언어마다 동일하게
+        for sid in eval_ids:
             item = by_id.get(sid)
             if item is None:
                 continue
@@ -83,8 +61,6 @@ def write_input_csv(df: pd.DataFrame, out: Path) -> None:
     df[["id", "answer"]].to_csv(out / "answer_key.csv", index=False, encoding="utf-8")
     print(f"[ok] {out/'answer_key.csv'}  (전달용 아님)")
 
-
-# ---------------------------------------------------------------- prompt.txt
 
 def render_shots(items: list, condition: str, stages: list) -> str:
     blocks = []
