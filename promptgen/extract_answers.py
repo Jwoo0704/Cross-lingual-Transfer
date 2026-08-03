@@ -1,24 +1,3 @@
-#!/usr/bin/env python3
-"""
-모델 출력에서 최종 답(A-D)을 추출한다. 추론 코드와 독립적으로 동작한다.
-
-입력  : vLLM 결과 (jsonl 또는 csv). 필요한 열/키
-          id      - input.csv 의 id 와 동일
-          output  - 모델이 생성한 텍스트
-          finish_reason (선택) - 'length' 이면 잘린 것으로 표시
-출력  : extracted.csv   id, pred, status, matched_by
-        retry_ids.txt   재실행 대상 id 목록 (status != ok)
-
-사용
-  python extract_answers.py --pred results.jsonl --out out
-  python extract_answers.py --pred results.csv --out out --answer-key answer_key.csv
-
-status
-  ok            답 추출 성공
-  truncated     finish_reason == length 이거나, 답 없이 출력이 상한 근처에서 끝남
-  no_match      출력은 끝났으나 답 형식을 찾지 못함
-"""
-
 from __future__ import annotations
 
 import argparse
@@ -29,11 +8,11 @@ from pathlib import Path
 
 import pandas as pd
 
-# Gemma thinking 채널이 새는 경우가 있어, 답 탐색 전에 제거한다.
+
 THINK_BLOCK = re.compile(r"<(think|thinking)>.*?</\1>", re.DOTALL | re.IGNORECASE)
 UNCLOSED_THINK = re.compile(r"<(think|thinking)>.*\Z", re.DOTALL | re.IGNORECASE)
 
-# 우선순위 순. 각 패턴에서 '마지막' 매치를 채택한다.
+
 PATTERNS = [
     ("answer_is",  re.compile(r"answer\s+is\s*[:\-]?\s*\(?\*{0,2}([A-D])\*{0,2}\)?", re.IGNORECASE)),
     ("boxed",      re.compile(r"\\boxed\s*\{\s*\(?([A-D])\)?\s*\}", re.IGNORECASE)),
@@ -48,7 +27,6 @@ def strip_thinking(text: str) -> str:
 
 
 def extract(text: str) -> tuple[str | None, str | None]:
-    """(pred, matched_by). 실패 시 (None, None)."""
     if not isinstance(text, str) or not text.strip():
         return None, None
     body = strip_thinking(text)
@@ -96,7 +74,7 @@ def main() -> None:
         if p is not None:
             status.append("ok")
         elif has_fr:
-            # finish_reason 이 있으면 그것만 신뢰한다.
+
             status.append("truncated" if str(r["finish_reason"]).lower() == "length" else "no_match")
         elif args.max_chars is not None and len(text) >= args.max_chars:
             status.append("truncated")
