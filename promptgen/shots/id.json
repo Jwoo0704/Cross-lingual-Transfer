@@ -1,0 +1,138 @@
+{
+  "anchor": {
+    "code": "id",
+    "name": "Indonesian",
+    "morphology": "agglutinative",
+    "word_order": "SVO",
+    "script": "latin",
+    "resource": "mid",
+    "translation": "human"
+  },
+  "items": [
+    {
+      "sample_id": "clinical_knowledge/test/65",
+      "answer": "D",
+      "anchor_text": "Pada syok hipovolemik, berapa persentase kehilangan darah yang menyebabkan perubahan frekuensi jantung dan tekanan darah? A) 5% B) 10% C) 20% D) 30%",
+      "english_text": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%",
+      "stages": {
+        "0": "Pada syok hipovolemik, berapa persentase kehilangan darah yang menyebabkan perubahan frekuensi jantung dan tekanan darah? A) 5% B) 10% C) 20% D) 30%",
+        "25": "Pada hypovolemic shock, berapa persentase kehilangan darah yang menyebabkan perubahan frekuensi heart dan tekanan darah? A) 5% B) 10% C) 20% D) 30%",
+        "50": "Pada hypovolemic shock, berapa percentage loss darah yang menyebabkan changes frekuensi heart dan blood pressure? A) 5% B) 10% C) 20% D) 30%",
+        "75": "Pada hypovolemic shock, berapa percentage loss blood yang cause changes heart rate dan blood pressure? A) 5% B) 10% C) 20% D) 30%",
+        "100": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.118,
+        "50": 0.387,
+        "75": 0.563
+      },
+      "retention": {
+        "25": 0.786,
+        "50": 0.5,
+        "75": 0.286
+      }
+    },
+    {
+      "sample_id": "high_school_mathematics/test/48",
+      "answer": "D",
+      "anchor_text": "John membagi pin topi suvenirnya menjadi dua tumpukan. Kedua tumpukan tersebut memiliki jumlah pin yang sama. Ia memberikan kepada saudara laki-lakinya setengah dari sepertiga tumpukan. Sekarang pin milik John tersisa 66 buah. Berapa banyak pin yang semula dimiliki oleh John? A) 792 B) 66 C) 396 D) 72",
+      "english_text": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72",
+      "stages": {
+        "0": "John membagi pin topi suvenirnya menjadi dua tumpukan. Kedua tumpukan tersebut memiliki jumlah pin yang sama. Ia memberikan kepada saudara laki-lakinya setengah dari sepertiga tumpukan. Sekarang pin milik John tersisa 66 buah. Berapa banyak pin yang semula dimiliki oleh John? A) 792 B) 66 C) 396 D) 72",
+        "25": "John membagi souvenir hat pinsnya menjadi dua piles. Kedua piles tersebut memiliki jumlah pin yang equal. Ia memberikan kepada saudara laki-lakinya setengah dari sepertiga tumpukan. Sekarang pin milik John tersisa 66 buah. Berapa banyak pin yang semula dimiliki oleh John? A) 792 B) 66 C) 396 D) 72",
+        "50": "John divided souvenir hat pinsnya menjadi dua piles. Kedua piles tersebut have jumlah pin yang equal. Ia gave kepada brothernya one-half dari one-third pile. Sekarang pin milik John left 66 buah. Berapa many pin yang originally dimiliki oleh John? A) 792 B) 66 C) 396 D) 72",
+        "75": "John divided souvenir hat pinsnya menjadi two piles. Both piles tersebut have equal number of pins. Ia gave kepada brothernya one-half dari one-third pile. Now pins milik John remains 66 pieces. Berapa many pins yang originally owned oleh John? A) 792 B) 66 C) 396 D) 72",
+        "100": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.141,
+        "50": 0.501,
+        "75": 0.684
+      },
+      "retention": {
+        "25": 0.903,
+        "50": 0.516,
+        "75": 0.29
+      }
+    },
+    {
+      "sample_id": "professional_medicine/test/169",
+      "answer": "B",
+      "anchor_text": "Seorang laki-laki berusia 57 tahun menerima terapi radiasi untuk karsinoma sel skuamosa paru-paru. Meskipun diberi terapi tersebut, ukuran tumor bertambah secara progresif dan dia meninggal 6 bulan kemudian. Sel tumornya mengandung mutasi titik dalam gen p53 (TP53), yang menyebabkan produk gen tidak aktif. Berdasarkan temuan ini, pertumbuhan tumor yang progresif meskipun telah dilakukan terapi iradiasi kemungkinan besar berkaitan dengan cacat dalam penghentian siklus sel. Pada fase apa kecacatan siklus sel tersebut terjadi? A) G0 B) G1 C) G2 D) M",
+      "english_text": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M",
+      "stages": {
+        "0": "Seorang laki-laki berusia 57 tahun menerima terapi radiasi untuk karsinoma sel skuamosa paru-paru. Meskipun diberi terapi tersebut, ukuran tumor bertambah secara progresif dan dia meninggal 6 bulan kemudian. Sel tumornya mengandung mutasi titik dalam gen p53 (TP53), yang menyebabkan produk gen tidak aktif. Berdasarkan temuan ini, pertumbuhan tumor yang progresif meskipun telah dilakukan terapi iradiasi kemungkinan besar berkaitan dengan cacat dalam penghentian siklus sel. Pada fase apa kecacatan siklus sel tersebut terjadi? A) G0 B) G1 C) G2 D) M",
+        "25": "Seorang man berusia 57 tahun receives terapi radiation untuk karsinoma sel skuamosa lung. Meskipun diberi terapi tersebut, size tumor bertambah secara progressive dan dia dies 6 bulan kemudian. Sel tumornya mengandung point mutation dalam gen p53 (TP53), yang menyebabkan gene product tidak active. Berdasarkan finding ini, growth tumor yang progresif meskipun telah dilakukan terapi irradiation kemungkinan besar berkaitan dengan defect dalam penghentian cell cycle. Pada fase apa defect cell cycle tersebut terjadi? A) G0 B) G1 C) G2 D) M",
+        "50": "Seorang man aged 57 tahun receives radiation therapy untuk squamous cell carcinoma lung. Meskipun given terapi tersebut, size tumor increases secara progressive dan dia dies 6 months kemudian. Cell tumornya mengandung point mutation dalam gene p53 (TP53), yang causes gene product tidak active. Berdasarkan finding ini, tumor growth yang progressive meskipun telah dilakukan irradiation therapy kemungkinan besar related dengan defect dalam cell cycle arrest. Pada phase apa defect cell cycle tersebut terjadi? A) G0 B) G1 C) G2 D) M",
+        "75": "Seorang man aged 57 years receives radiation therapy untuk lung squamous cell carcinoma. Meskipun given therapy tersebut, tumor size increases secara progressive dan dia dies 6 months later. His tumor cells mengandung point mutation dalam p53 gene (TP53), yang causes gene product tidak active. Berdasarkan finding ini, progressive tumor growth meskipun telah performed irradiation therapy most likely related dengan defect dalam cell cycle arrest. Pada phase apa cell cycle defect tersebut occurs? A) G0 B) G1 C) G2 D) M",
+        "100": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.317,
+        "50": 0.499,
+        "75": 0.639
+      },
+      "retention": {
+        "25": 0.704,
+        "50": 0.463,
+        "75": 0.315
+      }
+    },
+    {
+      "sample_id": "medical_genetics/test/15",
+      "answer": "A",
+      "anchor_text": "Analisis QTL digunakan untuk A) mengidentifikasi wilayah kromosom yang terkait dengan suatu sifat kompleks dalam suatu persilangan genetik B) menentukan gen mana saja yang diekspresikan pada tahap perkembangan C) memetakan gen pada virus bakteri D) mengidentifikasi situs pengikatan RNA polimerase",
+      "english_text": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites",
+      "stages": {
+        "0": "Analisis QTL digunakan untuk A) mengidentifikasi wilayah kromosom yang terkait dengan suatu sifat kompleks dalam suatu persilangan genetik B) menentukan gen mana saja yang diekspresikan pada tahap perkembangan C) memetakan gen pada virus bakteri D) mengidentifikasi situs pengikatan RNA polimerase",
+        "25": "Analysis QTL digunakan untuk A) mengidentifikasi wilayah chromosome yang terkait dengan suatu trait kompleks dalam suatu persilangan genetik B) menentukan gen mana saja yang expressed pada stage perkembangan C) map gen pada viruses bakteri D) mengidentifikasi situs binding RNA polymerase",
+        "50": "Analysis QTL used untuk A) identify regions chromosome yang associated dengan suatu trait complex dalam suatu cross genetic B) determine gen mana saja yang expressed pada stage perkembangan C) map gen pada viruses bakteri D) identify situs binding RNA polymerase",
+        "75": "Analysis QTL used untuk A) identify regions chromosome yang associated dengan suatu trait complex dalam suatu cross genetic B) determine genes mana saja yang expressed pada stage development C) map genes pada viruses bacterial D) identify sites binding RNA polymerase",
+        "100": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.318,
+        "50": 0.595,
+        "75": 0.721
+      },
+      "retention": {
+        "25": 0.69,
+        "50": 0.414,
+        "75": 0.276
+      }
+    },
+    {
+      "sample_id": "college_physics/test/20",
+      "answer": "C",
+      "anchor_text": "Sinar X karakteristik, tampak sebagai garis tajam pada latar belakang kontinu, dihasilkan ketika elektron berenergi tinggi mengenai target logam. Manakah dari proses berikut ini yang menghasilkan sinar X karakteristik? A) Elektron menghasilkan radiasi Čerenkov B) Elektron bertabrakan dengan fonon di dalam logam C) Elektron mengisi kekosongan cangkang bagian dalam yang tercipta pada atom logam D) Elektron bergabung dengan proton dan membentuk neutron",
+      "english_text": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons",
+      "stages": {
+        "0": "Sinar X karakteristik, tampak sebagai garis tajam pada latar belakang kontinu, dihasilkan ketika elektron berenergi tinggi mengenai target logam. Manakah dari proses berikut ini yang menghasilkan sinar X karakteristik? A) Elektron menghasilkan radiasi Čerenkov B) Elektron bertabrakan dengan fonon di dalam logam C) Elektron mengisi kekosongan cangkang bagian dalam yang tercipta pada atom logam D) Elektron bergabung dengan proton dan membentuk neutron",
+        "25": "Sinar X characteristic, tampak sebagai sharp lines pada latar belakang kontinu, dihasilkan ketika elektron berenergi tinggi mengenai metal target. Manakah dari proses berikut ini yang menghasilkan sinar X characteristic? A) Elektron menghasilkan Čerenkov radiation B) Elektron colliding dengan fonon di dalam logam C) Elektron mengisi inner shell vacancies yang tercipta pada atom logam D) Elektron combining dengan proton dan membentuk neutron",
+        "50": "Characteristic X-rays, appearing sebagai sharp lines pada continuous background, produced ketika high-energy electrons mengenai metal target. Manakah dari following processes ini yang produces characteristic X-rays? A) Electrons producing Čerenkov radiation B) Electrons colliding dengan phonons di dalam metal C) Electrons filling inner shell vacancies yang created pada metal atoms D) Electrons combining dengan protons dan forming neutrons",
+        "75": "Characteristic X-rays, appearing sebagai sharp lines pada continuous background, produced ketika high-energy electrons bombard metal target. Which dari following processes ini yang results in characteristic X-rays? A) Electrons produce Čerenkov radiation B) Electrons collide dengan phonons di dalam metal C) Electrons fill inner shell vacancies yang created pada metal atoms D) Electrons combine dengan protons dan form neutrons",
+        "100": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.238,
+        "50": 0.692,
+        "75": 0.737
+      },
+      "retention": {
+        "25": 0.78,
+        "50": 0.293,
+        "75": 0.244
+      }
+    }
+  ]
+}

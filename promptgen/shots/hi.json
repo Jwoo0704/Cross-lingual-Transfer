@@ -1,0 +1,138 @@
+{
+  "anchor": {
+    "code": "hi",
+    "name": "Hindi",
+    "morphology": "fusional",
+    "word_order": "SOV",
+    "script": "non-latin",
+    "resource": "high",
+    "translation": "human"
+  },
+  "items": [
+    {
+      "sample_id": "clinical_knowledge/test/65",
+      "answer": "D",
+      "anchor_text": "हाइपोवोलेमिक शॉक में, हृदय गति और रक्तचाप में परिवर्तन परिलक्षित होने से पहले कितने प्रतिशत रक्त की हानि हो सकती है? A) 5% B) 10% C) 20% D) 30%",
+      "english_text": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%",
+      "stages": {
+        "0": "हाइपोवोलेमिक शॉक में, हृदय गति और रक्तचाप में परिवर्तन परिलक्षित होने से पहले कितने प्रतिशत रक्त की हानि हो सकती है? A) 5% B) 10% C) 20% D) 30%",
+        "25": "हाइपोवोलेमिक शॉक में, हृदय गति और रक्तचाप में परिवर्तन परिलक्षित होने से पहले कितने प्रतिशत blood की loss हो सकती है? A) 5% B) 10% C) 20% D) 30%",
+        "50": "हाइपोवोलेमिक शॉक में, heart rate और blood pressure में परिवर्तन परिलक्षित होने से पहले कितने percentage blood की loss हो सकती है? A) 5% B) 10% C) 20% D) 30%",
+        "75": "Hypovolaemic shock में, heart rate और blood pressure में changes reflect होने से पहले कितने percentage blood की loss हो सकती है? A) 5% B) 10% C) 20% D) 30%",
+        "100": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.05,
+        "50": 0.253,
+        "75": 0.431
+      },
+      "retention": {
+        "25": 1.0,
+        "50": 0.778,
+        "75": 0.556
+      }
+    },
+    {
+      "sample_id": "high_school_mathematics/test/48",
+      "answer": "D",
+      "anchor_text": "जॉन ने अपनी स्मारिका टोपी पिन को दो ढेरों में विभाजित किया। दोनों ढेरों में पिनों की संख्या बराबर थी। उसने अपने भाई को एक ढेर का आधा हिस्सा एक तिहाई दे दिया। जॉन के पास 66 पिन बचे थे। जॉन के पास मूल रूप से कितने पिन थे? A) 792 B) 66 C) 396 D) 72",
+      "english_text": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72",
+      "stages": {
+        "0": "जॉन ने अपनी स्मारिका टोपी पिन को दो ढेरों में विभाजित किया। दोनों ढेरों में पिनों की संख्या बराबर थी। उसने अपने भाई को एक ढेर का आधा हिस्सा एक तिहाई दे दिया। जॉन के पास 66 पिन बचे थे। जॉन के पास मूल रूप से कितने पिन थे? A) 792 B) 66 C) 396 D) 72",
+        "25": "जॉन ने अपनी souvenir hat pins को दो ढेरों में divide किया। दोनों ढेरों में पिनों की संख्या बराबर थी। उसने अपने brother को एक ढेर का आधा हिस्सा एक तिहाई दे दिया। जॉन के पास 66 पिन बचे थे। जॉन के पास originally कितने पिन थे? A) 792 B) 66 C) 396 D) 72",
+        "50": "John ने अपनी souvenir hat pins को two piles में divide किया। दोनों piles में pins की number equal थी। उसने अपने brother को one pile का half portion एक तिहाई दे दिया। John के पास 66 pins left थे। John के पास originally कितने pins थे? A) 792 B) 66 C) 396 D) 72",
+        "75": "John ने अपनी souvenir hat pins को two piles में divide किया। Both piles में pins की number equal थी। उसने अपने brother को one pile का one-half का one-third give कर दिया। John के पास 66 pins left थे। John के पास originally कितने pins थे? A) 792 B) 66 C) 396 D) 72",
+        "100": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.174,
+        "50": 0.481,
+        "75": 0.537
+      },
+      "retention": {
+        "25": 0.846,
+        "50": 0.538,
+        "75": 0.462
+      }
+    },
+    {
+      "sample_id": "professional_medicine/test/169",
+      "answer": "B",
+      "anchor_text": "57 वर्षीय व्यक्ति फेफड़े के स्क्वैमस सेल कार्सिनोमा के लिए विकिरण चिकित्सा प्राप्त करता है। चिकित्सा के बावजूद, ट्यूमर का आकार उत्तरोत्तर बढ़ता जाता है, और 6 महीने बाद उसकी मृत्यु हो जाती है। उसके ट्यूमर कोशिकाओं में p53 जीन (TP53) में एक बिंदु उत्परिवर्तन होता है, जिससे एक निष्क्रिय जीन उत्पाद बनता है। इस खोज के आधार पर, विकिरण चिकित्सा के बावजूद प्रगतिशील ट्यूमर वृद्धि सबसे अधिक संभावना कोशिका चक्र के निम्नलिखित चरणों में से किसमें कोशिका चक्र गिरफ्तारी में दोष से संबंधित है? A) जी 0 B) जी1 C) जी2 D) एम",
+      "english_text": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M",
+      "stages": {
+        "0": "57 वर्षीय व्यक्ति फेफड़े के स्क्वैमस सेल कार्सिनोमा के लिए विकिरण चिकित्सा प्राप्त करता है। चिकित्सा के बावजूद, ट्यूमर का आकार उत्तरोत्तर बढ़ता जाता है, और 6 महीने बाद उसकी मृत्यु हो जाती है। उसके ट्यूमर कोशिकाओं में p53 जीन (TP53) में एक बिंदु उत्परिवर्तन होता है, जिससे एक निष्क्रिय जीन उत्पाद बनता है। इस खोज के आधार पर, विकिरण चिकित्सा के बावजूद प्रगतिशील ट्यूमर वृद्धि सबसे अधिक संभावना कोशिका चक्र के निम्नलिखित चरणों में से किसमें कोशिका चक्र गिरफ्तारी में दोष से संबंधित है? A) जी 0 B) जी1 C) जी2 D) एम",
+        "25": "57-year-old man फेफड़े के squamous cell carcinoma के लिए radiation therapy प्राप्त करता है। therapy के बावजूद, tumor का आकार उत्तरोत्तर बढ़ता जाता है, और 6 months बाद उसकी death हो जाती है। उसकी tumor कोशिकाओं में p53 gene (TP53) में एक point mutation होता है, जिससे एक inactive जीन उत्पाद बनता है। इस खोज के आधार पर, radiation therapy के बावजूद प्रगतिशील tumor वृद्धि सबसे अधिक संभावना cell cycle के निम्नलिखित phases में से किसमें cell cycle arrest में दोष से संबंधित है? A) G0 B) G1 C) G2 D) M",
+        "50": "57-year-old man lung के squamous cell carcinoma के लिए radiation therapy receive करता है। therapy के बावजूद, tumor का size progressively बढ़ता जाता है, और 6 months later उसकी death हो जाती है। उसकी tumor cells में p53 gene (TP53) में एक point mutation होता है, जिससे एक inactive gene product बनता है। इस finding के basis पर, radiation therapy के बावजूद progressive tumor growth सबसे अधिक संभावना cell cycle के following phases में से किसमें cell cycle arrest में defect से related है? A) G0 B) G1 C) G2 D) M",
+        "75": "57-year-old man lung के squamous cell carcinoma के लिए radiation therapy receive करता है। therapy के बावजूद, tumor का size progressively increase होता जाता है, और 6 months later उसकी death हो जाती है। उसकी tumor cells में p53 gene (TP53) में एक point mutation contain होता है, जिससे एक inactive gene product form होता है। इस finding के basis पर, radiation therapy के बावजूद progressive tumor growth most likely cell cycle के following phases में से किसमें cell cycle arrest में defect से related है? A) G0 B) G1 C) G2 D) M",
+        "100": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.314,
+        "50": 0.498,
+        "75": 0.587
+      },
+      "retention": {
+        "25": 0.806,
+        "50": 0.583,
+        "75": 0.444
+      }
+    },
+    {
+      "sample_id": "medical_genetics/test/15",
+      "answer": "A",
+      "anchor_text": "क्यूटीएल विश्लेषण का उपयोग किया जाता है A) आनुवंशिक क्रॉस में एक जटिल लक्षण से जुड़े गुणसूत्र क्षेत्रों की पहचान करना B) यह निर्धारित करना कि विकासात्मक अवस्था में कौन से जीन अभिव्यक्त होते हैं C) जीवाणु विषाणुओं में जीन का मानचित्रण D) आरएनए पॉलीमरेज़ बंधन स्थलों की पहचान करना",
+      "english_text": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites",
+      "stages": {
+        "0": "क्यूटीएल विश्लेषण का उपयोग किया जाता है A) आनुवंशिक क्रॉस में एक जटिल लक्षण से जुड़े गुणसूत्र क्षेत्रों की पहचान करना B) यह निर्धारित करना कि विकासात्मक अवस्था में कौन से जीन अभिव्यक्त होते हैं C) जीवाणु विषाणुओं में जीन का मानचित्रण D) आरएनए पॉलीमरेज़ बंधन स्थलों की पहचान करना",
+        "25": "QTL विश्लेषण का use किया जाता है A) आनुवंशिक cross में एक complex लक्षण से जुड़े गुणसूत्र क्षेत्रों की पहचान करना B) यह determine करना कि विकासात्मक stage में कौन से जीन अभिव्यक्त होते हैं C) bacterial विषाणुओं में जीन का मानचित्रण D) आरएनए पॉलीमरेज़ binding स्थलों की पहचान करना",
+        "50": "QTL analysis का use किया जाता है A) genetic cross में एक complex trait से जुड़े chromosome regions की पहचान करना B) यह determine करना कि developmental stage में कौन से genes अभिव्यक्त होते हैं C) bacterial viruses में genes का mapping D) RNA polymerase binding sites की पहचान करना",
+        "75": "QTL analysis का use किया जाता है A) genetic cross में एक complex trait से associated chromosome regions की identify करना B) यह determine करना कि developmental stage में कौन से genes expressed होते हैं C) bacterial viruses में genes का mapping D) RNA polymerase binding sites की identify करना",
+        "100": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.214,
+        "50": 0.512,
+        "75": 0.662
+      },
+      "retention": {
+        "25": 0.857,
+        "50": 0.571,
+        "75": 0.357
+      }
+    },
+    {
+      "sample_id": "college_physics/test/20",
+      "answer": "C",
+      "anchor_text": "सतत पृष्ठभूमि पर तीखी रेखाओं के रूप में दिखने वाली विशिष्ट एक्स किरणें तब उत्पन्न होती हैं जब उच्च ऊर्जा वाले इलेक्ट्रॉन किसी धातु के लक्ष्य पर बमबारी करते हैं। निम्नलिखित में से कौन सी प्रक्रिया विशिष्ट एक्स किरणों का परिणाम है? A) चेरेनकोव विकिरण उत्पन्न करने वाले इलेक्ट्रॉन B) धातु में इलेक्ट्रॉन फ़ोनॉन से टकराते हैं C) धातु परमाणुओं में निर्मित आंतरिक शैल रिक्तियों को भरने वाले इलेक्ट्रॉन D) इलेक्ट्रॉन प्रोटॉन के साथ मिलकर न्यूट्रॉन बनाते हैं",
+      "english_text": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons",
+      "stages": {
+        "0": "सतत पृष्ठभूमि पर तीखी रेखाओं के रूप में दिखने वाली विशिष्ट एक्स किरणें तब उत्पन्न होती हैं जब उच्च ऊर्जा वाले इलेक्ट्रॉन किसी धातु के लक्ष्य पर बमबारी करते हैं। निम्नलिखित में से कौन सी प्रक्रिया विशिष्ट एक्स किरणों का परिणाम है? A) चेरेनकोव विकिरण उत्पन्न करने वाले इलेक्ट्रॉन B) धातु में इलेक्ट्रॉन फ़ोनॉन से टकराते हैं C) धातु परमाणुओं में निर्मित आंतरिक शैल रिक्तियों को भरने वाले इलेक्ट्रॉन D) इलेक्ट्रॉन प्रोटॉन के साथ मिलकर न्यूट्रॉन बनाते हैं",
+        "25": "Continuous पृष्ठभूमि पर sharp रेखाओं के रूप में दिखने वाली characteristic एक्स किरणें तब produce होती हैं जब high-energy वाले इलेक्ट्रॉन किसी धातु के target पर बमबारी करते हैं। निम्नलिखित में से कौन सी process characteristic एक्स किरणों का result है? A) Čerenkov radiation उत्पन्न करने वाले इलेक्ट्रॉन B) धातु में इलेक्ट्रॉन फ़ोनॉन से टकराते हैं C) धातु परमाणुओं में निर्मित inner shell vacancies को भरने वाले इलेक्ट्रॉन D) इलेक्ट्रॉन प्रोटॉन के साथ मिलकर न्यूट्रॉन बनाते हैं",
+        "50": "Continuous background पर sharp lines के रूप में appearing characteristic X rays तब produce होती हैं जब high-energy वाले इलेक्ट्रॉन किसी metal target पर bombard करते हैं। निम्नलिखित में से कौन सी process characteristic X rays का result है? A) Čerenkov radiation produce करने वाले इलेक्ट्रॉन B) metal में इलेक्ट्रॉन phonons से collide करते हैं C) metal atoms में created inner shell vacancies को fill करने वाले इलेक्ट्रॉन D) इलेक्ट्रॉन protons के साथ combine होकर neutrons बनाते हैं",
+        "75": "Continuous background पर sharp lines के form में appearing characteristic X rays तब produce होती हैं जब high-energy वाले electrons किसी metal target पर bombard करते हैं। Following में से कौन सी process characteristic X rays का result है? A) Čerenkov radiation produce करने वाले electrons B) metal में electrons phonons के साथ collide करते हैं C) metal atoms में created inner shell vacancies को fill करने वाले electrons D) electrons protons के साथ combine होकर neutrons form करते हैं",
+        "100": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.223,
+        "50": 0.503,
+        "75": 0.585
+      },
+      "retention": {
+        "25": 0.871,
+        "50": 0.516,
+        "75": 0.419
+      }
+    }
+  ]
+}

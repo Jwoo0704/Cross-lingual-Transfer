@@ -1,0 +1,138 @@
+{
+  "anchor": {
+    "code": "zh",
+    "name": "Chinese",
+    "morphology": "isolating",
+    "word_order": "SVO",
+    "script": "non-latin",
+    "resource": "high",
+    "translation": "human"
+  },
+  "items": [
+    {
+      "sample_id": "clinical_knowledge/test/65",
+      "answer": "D",
+      "anchor_text": "在低血容量性休克中，多少失血量才会反映在心率和血压的变化中？ A) 5% B) 10% C) 20% D) 30%",
+      "english_text": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%",
+      "stages": {
+        "0": "在低血容量性休克中，多少失血量才会反映在心率和血压的变化中？ A) 5% B) 10% C) 20% D) 30%",
+        "25": "在低血容量性休克中，多少失血量才会反映在 heart rate 和 blood pressure 的变化中？ A) 5% B) 10% C) 20% D) 30%",
+        "50": "在 hypovolaemic shock 中，多少失血量才会反映在 heart rate 和 blood pressure 的 changes 中？ A) 5% B) 10% C) 20% D) 30%",
+        "75": "在 hypovolaemic shock 中，多少 blood loss 才会 reflect 在 heart rate 和 blood pressure 的 changes 中？ A) 5% B) 10% C) 20% D) 30%",
+        "100": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.195,
+        "50": 0.395,
+        "75": 0.514
+      },
+      "retention": {
+        "25": 0.87,
+        "50": 0.565,
+        "75": 0.348
+      }
+    },
+    {
+      "sample_id": "high_school_mathematics/test/48",
+      "answer": "D",
+      "anchor_text": "John 把他的纪念帽别针分成两堆。这两堆有相同数量的别针。他给他哥哥一堆的三分之一的一半。John 还剩下 66 个别针。John 最初有多少个别针？ A) 792 B) 66 C) 396 D) 72",
+      "english_text": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72",
+      "stages": {
+        "0": "John 把他的纪念帽别针分成两堆。这两堆有相同数量的别针。他给他哥哥一堆的三分之一的一半。John 还剩下 66 个别针。John 最初有多少个别针？ A) 792 B) 66 C) 396 D) 72",
+        "25": "John 把他的 souvenir hat 别针分成两 piles。这两 piles 有相同数量的别针。他给他 brother 一 pile 的三分之一的一半。John 还剩下 66 个别针。John 最初有多少个别针？ A) 792 B) 66 C) 396 D) 72",
+        "50": "John 把他的 souvenir hat pins divided 成两 piles。这两 piles 有 equal number 的 pins。他给他 brother 一 pile 的三分之一的一半。John 还 left 66 个 pins。John 最初有多少个 pins？ A) 792 B) 66 C) 396 D) 72",
+        "75": "John 把他的 souvenir hat pins divided 成两 piles。这两 piles 有 equal number 的 pins。他给他 brother 一 pile 的 one-third 的 one-half。John 还 left 66 个 pins。John originally 有 how many 个 pins？ A) 792 B) 66 C) 396 D) 72",
+        "100": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.18,
+        "50": 0.384,
+        "75": 0.633
+      },
+      "retention": {
+        "25": 0.844,
+        "50": 0.594,
+        "75": 0.344
+      }
+    },
+    {
+      "sample_id": "professional_medicine/test/169",
+      "answer": "B",
+      "anchor_text": "一名 57 岁男性因肺鳞状细胞癌接受放射治疗。尽管进行了治疗，肿瘤仍然逐渐增大，他在 6 个月后去世。其肿瘤细胞含有 p53 基因（TP53）的点突变，导致基因产物失活。基于这一发现，尽管进行了放射治疗，肿瘤仍逐渐生长最可能与细胞周期中哪个阶段的细胞周期阻滞缺陷有关？ A) G0 B) G1 C) G2 D) M",
+      "english_text": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M",
+      "stages": {
+        "0": "一名 57 岁男性因肺鳞状细胞癌接受放射治疗。尽管进行了治疗，肿瘤仍然逐渐增大，他在 6 个月后去世。其肿瘤细胞含有 p53 基因（TP53）的点突变，导致基因产物失活。基于这一发现，尽管进行了放射治疗，肿瘤仍逐渐生长最可能与细胞周期中哪个阶段的细胞周期阻滞缺陷有关？ A) G0 B) G1 C) G2 D) M",
+        "25": "一名 57 岁男性因 lung 的 squamous cell carcinoma 接受 radiation therapy。尽管进行了治疗，肿瘤仍然逐渐增大，他在 6 个月后去世。其肿瘤细胞含有 p53 基因（TP53）的 point mutation，导致基因产物失活。基于这一发现，尽管进行了 radiation therapy，肿瘤仍逐渐生长最可能与 cell cycle 中哪个阶段的 cell cycle arrest defect 有关？ A) G0 B) G1 C) G2 D) M",
+        "50": "一名 57 岁 male 因 lung 的 squamous cell carcinoma 接受 radiation therapy。尽管进行了 therapy，tumor 仍然逐渐增大，他在 6 个月后 dies。其 tumor cells 含有 p53 基因（TP53）的 point mutation，导致 gene product 失活。基于这一 finding，尽管进行了 radiation therapy，tumor 仍逐渐生长最可能与 cell cycle 中哪个 phase 的 cell cycle arrest defect 有关？ A) G0 B) G1 C) G2 D) M",
+        "75": "一名 57 岁 male 因 lung 的 squamous cell carcinoma receives radiation therapy。尽管进行了 therapy，tumor 仍然 progressively increases in size，他在 6 months 后 dies。其 tumor cells contain p53 基因（TP53）的 point mutation，导致 gene product inactive。基于这一 finding，尽管进行了 radiation therapy，tumor 仍 progressively grow 最可能与 cell cycle 中哪个 phase 的 cell cycle arrest defect 有关？ A) G0 B) G1 C) G2 D) M",
+        "100": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.207,
+        "50": 0.358,
+        "75": 0.534
+      },
+      "retention": {
+        "25": 0.795,
+        "50": 0.575,
+        "75": 0.411
+      }
+    },
+    {
+      "sample_id": "medical_genetics/test/15",
+      "answer": "A",
+      "anchor_text": "QTL 分析用于： A) 识别在遗传交叉中与复杂性状相关的染色体区域 B) 确定在发育阶段表达哪些基因 C) 定位细菌病毒的基因 D) 识别 RNA 聚合酶结合位点",
+      "english_text": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites",
+      "stages": {
+        "0": "QTL 分析用于： A) 识别在遗传交叉中与复杂性状相关的染色体区域 B) 确定在发育阶段表达哪些基因 C) 定位细菌病毒的基因 D) 识别 RNA 聚合酶结合位点",
+        "25": "QTL analysis 用于： A) identify 在遗传交叉中与复杂性状相关的 chromosome 区域 B) 确定在发育阶段表达哪些 genes C) 定位细菌病毒的 genes D) 识别 RNA 聚合酶结合 sites",
+        "50": "QTL analysis 用于： A) identify 在 genetic cross 中与 complex trait 相关的 chromosome regions B) determine 在 developmental stage 表达哪些 genes C) map 细菌 viruses 的 genes D) 识别 RNA 聚合酶结合 sites",
+        "75": "QTL analysis 用于： A) identify 在 genetic cross 中与 complex trait associated 的 chromosome regions B) determine 在 developmental stage expressed 哪些 genes C) map bacterial viruses 的 genes D) identify RNA polymerase binding sites",
+        "100": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.177,
+        "50": 0.557,
+        "75": 0.808
+      },
+      "retention": {
+        "25": 0.83,
+        "50": 0.426,
+        "75": 0.17
+      }
+    },
+    {
+      "sample_id": "college_physics/test/20",
+      "answer": "C",
+      "anchor_text": "当高能电子轰击金属靶时，会产生特征 X 射线，在连续背景上呈现为清晰的线条。以下哪种过程会产生特征 X 射线？ A) 产生切伦科夫辐射的电子 B) 电子与金属中的声子碰撞 C) 电子填充金属原子中产生的内壳空位 D) 电子与质子结合形成中子",
+      "english_text": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons",
+      "stages": {
+        "0": "当高能电子轰击金属靶时，会产生特征 X 射线，在连续背景上呈现为清晰的线条。以下哪种过程会产生特征 X 射线？ A) 产生切伦科夫辐射的电子 B) 电子与金属中的声子碰撞 C) 电子填充金属原子中产生的内壳空位 D) 电子与质子结合形成中子",
+        "25": "当 high-energy 电子轰击 metal 靶时，会产生特征 X 射线，在 continuous 背景上呈现为清晰的 lines。以下哪种 process 会产生特征 X 射线？ A) 产生 Čerenkov radiation 的电子 B) 电子与金属中的 phonons 碰撞 C) 电子 fill 金属原子中产生的 inner shell vacancies D) 电子与 protons 结合形成 neutrons",
+        "50": "当 high-energy electrons 轰击 metal target 时，会 produce 特征 X 射线，在 continuous background 上呈现为 sharp 的 lines。以下哪种 process 会 produce 特征 X 射线？ A) produce Čerenkov radiation 的 electrons B) electrons 与 metal 中的 phonons collide C) electrons fill 金属 atoms 中 created 的 inner shell vacancies D) electrons 与 protons combine 形成 neutrons",
+        "75": "当 high-energy electrons bombard metal target 时，会 produce characteristic X rays，在 continuous background 上 appear 为 sharp 的 lines。以下哪种 process 会 produce characteristic X rays？ A) produce Čerenkov radiation 的 electrons B) electrons 与 metal 中的 phonons collide C) electrons fill metal atoms 中 created 的 inner shell vacancies D) electrons 与 protons combine 以 form neutrons",
+        "100": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.314,
+        "50": 0.51,
+        "75": 0.708
+      },
+      "retention": {
+        "25": 0.661,
+        "50": 0.424,
+        "75": 0.22
+      }
+    }
+  ]
+}

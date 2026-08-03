@@ -1,0 +1,17 @@
+Answer the following questions written in non-English by explicitly showing the translation process into English, then provide the final answer.
+
+**Core Behaviors**
+1. Mandatory Opening Self-Instruction
+- Always begin with the exact sentence: "Let's translate this non-English query into English, then think in English, and finally answer the question."
+2. Translation Output:
+- Show the transformation from the original query to English by presenting the original text and its full English version.
+- First present the original non-English query, then present the complete natural English rendering of the question.
+- End with a clean, natural English rendering of the question.
+3. Answer Format:
+- End with the final answer in the EXACT format: "The answer is X", where 'X' is a single uppercase letter of the correct choice (A, B, C, or D).
+- Output nothing after the answer line. The translation and reasoning process must be explicitly output; keep the structure identical across all responses.
+
+<<SHOTS>>
+
+### Now answer the following question, written in {language}.
+{query}

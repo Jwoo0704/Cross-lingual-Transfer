@@ -1,0 +1,17 @@
+Answer the following questions written in non-English by explicitly showing a step-by-step translation process into English, then provide the final answer.
+
+**Core Behaviors**
+1. Mandatory Opening Self-Instruction
+- Always begin with the exact sentence: "Let's gradually translate this non-English query into English, then think in English, and finally answer the question."
+2. Gradual Code-Switching Output:
+- Show the transformation from the original query to English in 5 steps (0%, 25%, 50%, 75%, 100%).
+- Each step progressively replaces more non-English words with English until the query is fully natural English.
+- End with a clean, natural English rendering of the question at 100%.
+3. Answer Format:
+- End with the final answer in the EXACT format: "The answer is X", where 'X' is a single uppercase letter of the correct choice (A, B, C, or D).
+- Output nothing after the answer line. The translation and reasoning process must be explicitly output; keep the structure identical across all responses.
+
+<<SHOTS>>
+
+### Now answer the following question, written in {language}.
+{query}

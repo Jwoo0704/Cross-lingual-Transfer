@@ -1,0 +1,138 @@
+{
+  "anchor": {
+    "code": "ar",
+    "name": "Arabic",
+    "morphology": "templatic",
+    "word_order": "VSO",
+    "script": "non-latin",
+    "resource": "high",
+    "translation": "human"
+  },
+  "items": [
+    {
+      "sample_id": "clinical_knowledge/test/65",
+      "answer": "D",
+      "anchor_text": "في حالة صدمة نقص حجم الدم، ما هي نسبة الدم التي يمكن فقدانها قبل أن تنعكس  التغيرات على معدل ضربات القلب وضغط الدم؟ A) 5% B) 10% C) 20% D) 30%",
+      "english_text": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%",
+      "stages": {
+        "0": "في حالة صدمة نقص حجم الدم، ما هي نسبة الدم التي يمكن فقدانها قبل أن تنعكس  التغيرات على معدل ضربات القلب وضغط الدم؟ A) 5% B) 10% C) 20% D) 30%",
+        "25": "في حالة shock نقص حجم الدم، ما هي نسبة الدم التي يمكن فقدانها قبل أن تنعكس changes على معدل ضربات القلب و blood pressure؟ A) 5% B) 10% C) 20% D) 30%",
+        "50": "في حالة hypovolaemic shock، ما هي percentage الدم التي يمكن فقدانها قبل أن تنعكس changes على heart rate و blood pressure؟ A) 5% B) 10% C) 20% D) 30%",
+        "75": "في case hypovolaemic shock، ما هي percentage الـ blood التي يمكن losing it قبل أن reflect الـ changes على heart rate و blood pressure؟ A) 5% B) 10% C) 20% D) 30%",
+        "100": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.186,
+        "50": 0.357,
+        "75": 0.441
+      },
+      "retention": {
+        "25": 0.92,
+        "50": 0.76,
+        "75": 0.6
+      }
+    },
+    {
+      "sample_id": "high_school_mathematics/test/48",
+      "answer": "D",
+      "anchor_text": "قام جون بتقسيم دبابيس قبعته التذكارية إلى كومتين. كان للكومتين عدد متساوٍ من الدبابيس. وأعطى أخاه نصف ثلث الكومة. كان لدى جون 66 دبابيس متبقية. كم عدد الدبابيس التي كان لدى جون في الأصل؟ A) 792 B) 66 C) 396 D) 72",
+      "english_text": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72",
+      "stages": {
+        "0": "قام جون بتقسيم دبابيس قبعته التذكارية إلى كومتين. كان للكومتين عدد متساوٍ من الدبابيس. وأعطى أخاه نصف ثلث الكومة. كان لدى جون 66 دبابيس متبقية. كم عدد الدبابيس التي كان لدى جون في الأصل؟ A) 792 B) 66 C) 396 D) 72",
+        "25": "قام جون بتقسيم pins قبعته الـ souvenir إلى كومتين. كان للكومتين عدد equal من الـ pins. وأعطى أخاه نصف ثلث الكومة. كان لدى جون 66 pins left. كم عدد الـ pins التي كان لدى جون في الأصل؟ A) 792 B) 66 C) 396 D) 72",
+        "50": "قام جون بـ dividing pins hat-ه الـ souvenir إلى pile-ين. كان للـ pile-ين number equal من الـ pins. وأعطى brother-ه half ثلث الـ pile. كان لدى جون 66 pins left. كم number الـ pins التي كان لدى جون في الـ origin؟ A) 792 B) 66 C) 396 D) 72",
+        "75": "قام John بـ dividing pins hat-ه الـ souvenir إلى two piles. كان لـ two piles number equal من الـ pins. و gave brother-ه one-half one-third الـ pile. كان لدى John 66 pins left. كم number الـ pins التي كان لدى John في الـ origin؟ A) 792 B) 66 C) 396 D) 72",
+        "100": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.134,
+        "50": 0.295,
+        "75": 0.481
+      },
+      "retention": {
+        "25": 0.923,
+        "50": 0.769,
+        "75": 0.577
+      }
+    },
+    {
+      "sample_id": "professional_medicine/test/169",
+      "answer": "B",
+      "anchor_text": "رجل يبلغ من العمر 57 عامًا يتلقى العلاج الإشعاعي لسرطان الخلايا الحرشفية في الرئة. وعلى الرغم من العلاج، يزداد حجم الورم تدريجيًا، ويموت بعد 6 أشهر. تحتوي خلاياه السرطانية على طفرة نقطية في الجين p53 (TP53)، يتسبب في إنتاج جين خامل. بناءً على هذه النتيجة، من المرجح أن يكون نمو الورم التدريجي على الرغم من العلاج الإشعاعي مرتبطًا بخلل في توقف دورة الخلية. في أي من المراحل التالية من دورة الخلية؟ A) J0 B) G1 C) G2 D) M",
+      "english_text": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M",
+      "stages": {
+        "0": "رجل يبلغ من العمر 57 عامًا يتلقى العلاج الإشعاعي لسرطان الخلايا الحرشفية في الرئة. وعلى الرغم من العلاج، يزداد حجم الورم تدريجيًا، ويموت بعد 6 أشهر. تحتوي خلاياه السرطانية على طفرة نقطية في الجين p53 (TP53)، يتسبب في إنتاج جين خامل. بناءً على هذه النتيجة، من المرجح أن يكون نمو الورم التدريجي على الرغم من العلاج الإشعاعي مرتبطًا بخلل في توقف دورة الخلية. في أي من المراحل التالية من دورة الخلية؟ A) J0 B) G1 C) G2 D) M",
+        "25": "رجل يبلغ من العمر 57 عامًا يتلقى الـ radiation therapy لسرطان الخلايا الحرشفية في الرئة. وعلى الرغم من العلاج، يزداد حجم الـ tumor تدريجيًا، ويموت بعد 6 أشهر. تحتوي خلاياه السرطانية على point mutation في الجين p53 (TP53)، يتسبب في إنتاج inactive gene product. بناءً على هذه النتيجة، من المرجح أن يكون نمو الورم التدريجي على الرغم من العلاج الإشعاعي مرتبطًا بخلل في cell cycle arrest. في أي من المراحل التالية من دورة الخلية؟ A) G0 B) G1 C) G2 D) M",
+        "50": "رجل 57-year-old يتلقى radiation therapy لـ squamous cell carcinoma في الرئة. وعلى الرغم من الـ therapy، يزداد الـ tumor size تدريجيًا، و dies بعد 6 months. تحتوي الـ tumor cells لديه على point mutation في الـ p53 gene (TP53)، يتسبب في إنتاج inactive gene product. بناءً على هذه الـ finding، من المرجح أن يكون الـ progressive tumor growth على الرغم من الـ irradiation therapy مرتبطًا بـ defect في cell cycle arrest. في أي من الـ phases التالية من الـ cell cycle؟ A) G0 B) G1 C) G2 D) M",
+        "75": "‏Man يبلغ من العمر 57 years old receives radiation therapy لـ squamous cell carcinoma في الـ lung. وعلى الرغم من الـ therapy، الـ tumor increases progressively في الـ size، و dies بعد 6 months. His tumor cells contain a point mutation في الـ p53 gene (TP53)، leading to production of inactive gene product. بناءً على هذه الـ finding، من الـ most likely أن يكون الـ progressive tumor growth رغم الـ irradiation therapy related بـ defect في cell cycle arrest. في أي من الـ following phases من الـ cell cycle؟ A) G0 B) G1 C) G2 D) M",
+        "100": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.187,
+        "50": 0.348,
+        "75": 0.554
+      },
+      "retention": {
+        "25": 0.968,
+        "50": 0.903,
+        "75": 0.581
+      }
+    },
+    {
+      "sample_id": "medical_genetics/test/15",
+      "answer": "A",
+      "anchor_text": "يستخدم تحليل موضع السمة الكمية (QTL) A) تحديد مناطق الكروموسوم المرتبطة بسمة معقدة في التهجين الجيني B) تحديد الجينات التي يتم التعبير عنها في مرحلة النمو C) خريطة الجينات في الفيروسات البكتيرية D) تحديد مواقع ربط بوليميريز RNA",
+      "english_text": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites",
+      "stages": {
+        "0": "يستخدم تحليل موضع السمة الكمية (QTL) A) تحديد مناطق الكروموسوم المرتبطة بسمة معقدة في التهجين الجيني B) تحديد الجينات التي يتم التعبير عنها في مرحلة النمو C) خريطة الجينات في الفيروسات البكتيرية D) تحديد مواقع ربط بوليميريز RNA",
+        "25": "يستخدم analysis موضع السمة الكمية (QTL) A) تحديد regions الكروموسوم المرتبطة بـ trait معقدة في التهجين الجيني B) تحديد genes التي يتم التعبير عنها في مرحلة النمو C) map الجينات في الفيروسات البكتيرية D) تحديد sites ربط بوليميريز RNA",
+        "50": "يستخدم analysis موضع quantitative trait (QTL) A) identify regions الكروموسوم المرتبطة بـ complex trait في cross جيني B) determine genes التي يتم expressed عنها في stage النمو C) map genes في bacterial viruses D) identify sites binding بوليميريز RNA",
+        "75": "يستخدم analysis الـ quantitative trait locus (QTL) A) identify regions الـ chromosome الـ associated بـ trait complex في cross genetic B) determine الـ genes التي يتم express عنها في stage developmental C) map الـ genes في viruses bacterial D) identify sites الـ binding لـ RNA polymerase",
+        "100": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.176,
+        "50": 0.37,
+        "75": 0.546
+      },
+      "retention": {
+        "25": 1.0,
+        "50": 0.913,
+        "75": 0.565
+      }
+    },
+    {
+      "sample_id": "college_physics/test/20",
+      "answer": "C",
+      "anchor_text": "تظهر الأشعة السينية المميزة كخطوط حادة على خلفية متواصلة، ويتم إنتاجها عندما تقصف الإلكترونات عالية الطاقة هدفًا معدنيًا. أي من العمليات التالية تنتج الأشعة السينية المميزة؟ A) تنتج الإلكترونات إشعاع تشيرينكوف B) تصادم الإلكترونات مع الفونونات في المعدن C) تملأ الإلكترونات الشواغر الداخلية التي تنشأ في ذرات المعدن D) تتحد الإلكترونات مع البروتونات لتكوين النيوترونات",
+      "english_text": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons",
+      "stages": {
+        "0": "تظهر الأشعة السينية المميزة كخطوط حادة على خلفية متواصلة، ويتم إنتاجها عندما تقصف الإلكترونات عالية الطاقة هدفًا معدنيًا. أي من العمليات التالية تنتج الأشعة السينية المميزة؟ A) تنتج الإلكترونات إشعاع تشيرينكوف B) تصادم الإلكترونات مع الفونونات في المعدن C) تملأ الإلكترونات الشواغر الداخلية التي تنشأ في ذرات المعدن D) تتحد الإلكترونات مع البروتونات لتكوين النيوترونات",
+        "25": "تظهر الأشعة السينية الـ characteristic كخطوط حادة على background متواصلة، ويتم إنتاجها عندما تقصف الـ electrons عالية الطاقة target معدنيًا. أي من العمليات التالية تنتج الأشعة السينية الـ characteristic؟ A) تنتج الـ electrons إشعاع Čerenkov B) تصادم الـ electrons مع الـ phonons في المعدن C) تملأ الـ electrons الشواغر الداخلية التي تنشأ في atoms المعدن D) تتحد الـ electrons مع الـ protons لتكوين الـ neutrons",
+        "50": "تظهر الـ characteristic X-rays كـ sharp lines على continuous background، ويتم إنتاجها عندما تقصف الـ high-energy electrons target معدنيًا. أي من الـ processes التالية تنتج الـ characteristic X-rays؟ A) تنتج الـ electrons إشعاع Čerenkov radiation B) تصادم الـ electrons مع الـ phonons في الـ metal C) تملأ الـ electrons الـ inner shell vacancies التي تنشأ في metal atoms D) تتحد الـ electrons مع الـ protons لـ form الـ neutrons",
+        "75": "appear الـ characteristic X-rays كـ sharp lines على continuous background، ويتم produced عندما bombard الـ high-energy electrons metal target. أي من الـ following processes produce الـ characteristic X-rays؟ A) produce الـ electrons Čerenkov radiation B) colliding الـ electrons مع الـ phonons في الـ metal C) filling الـ electrons الـ inner shell vacancies التي created في metal atoms D) combining الـ electrons مع الـ protons لـ form الـ neutrons",
+        "100": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.185,
+        "50": 0.405,
+        "75": 0.611
+      },
+      "retention": {
+        "25": 0.9,
+        "50": 0.767,
+        "75": 0.433
+      }
+    }
+  ]
+}

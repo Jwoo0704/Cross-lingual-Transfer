@@ -1,0 +1,8 @@
+You will be asked to answer a multiple-choice question.
+Read the question and the four choices, then select the single best answer.
+
+- Do not show any reasoning, explanation, or restatement of the question.
+- Respond with exactly one line in this format: The answer is X (where X is a single uppercase letter: A, B, C, or D.)
+
+### Question ({language})
+{query}

@@ -1,0 +1,138 @@
+{
+  "anchor": {
+    "code": "bn",
+    "name": "Bengali",
+    "morphology": "fusional",
+    "word_order": "SOV",
+    "script": "non-latin",
+    "resource": "mid",
+    "translation": "human"
+  },
+  "items": [
+    {
+      "sample_id": "clinical_knowledge/test/65",
+      "answer": "D",
+      "anchor_text": "হাইপোভোলেমেয়িক শক-এর সময়, দেহের কি পরিমাণ রক্ত হারানোর আগে পর্যন্ত হৃদস্পন্দন হার এবং রক্ত চাপ-এ তারতম্য হয়ন? A) 5% B) 10% C) 20% D) 30%",
+      "english_text": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%",
+      "stages": {
+        "0": "হাইপোভোলেমেয়িক শক-এর সময়, দেহের কি পরিমাণ রক্ত হারানোর আগে পর্যন্ত হৃদস্পন্দন হার এবং রক্ত চাপ-এ তারতম্য হয়ন? A) 5% B) 10% C) 20% D) 30%",
+        "25": "হাইপোভোলেমেয়িক শক-এর সময়, দেহের কি পরিমাণ blood হারানোর আগে পর্যন্ত heart rate এবং blood pressure-এ তারতম্য হয়ন? A) 5% B) 10% C) 20% D) 30%",
+        "50": "Hypovolaemic shock-এর সময়, body-র কি percentage blood loss-এর আগে পর্যন্ত heart rate এবং blood pressure-এ change হয়ন? A) 5% B) 10% C) 20% D) 30%",
+        "75": "Hypovolaemic shock-এর time-এ, body-র what percentage blood loss-এর আগে পর্যন্ত heart rate এবং blood pressure-এ variation হয়ন? A) 5% B) 10% C) 20% D) 30%",
+        "100": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.181,
+        "50": 0.362,
+        "75": 0.457
+      },
+      "retention": {
+        "25": 0.95,
+        "50": 0.65,
+        "75": 0.5
+      }
+    },
+    {
+      "sample_id": "high_school_mathematics/test/48",
+      "answer": "D",
+      "anchor_text": "জন তার স্মারক টুপির পিনগুলি দুটি ভাগে ভাগ করলেন। দুটি ভাগে একই সংখ্যক পিন ছিল। তিনি তার ভাইকে এক ভাগের এক-তৃতীয়াংশের অর্ধেক দিয়েছিলেন। জনের কাছে 66 টি পিন বাকি ছিল। জনের কাছে প্রাথমিকভাবে কতটি পিন ছিল? A) 792 B) 66 C) 396 D) 72",
+      "english_text": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72",
+      "stages": {
+        "0": "জন তার স্মারক টুপির পিনগুলি দুটি ভাগে ভাগ করলেন। দুটি ভাগে একই সংখ্যক পিন ছিল। তিনি তার ভাইকে এক ভাগের এক-তৃতীয়াংশের অর্ধেক দিয়েছিলেন। জনের কাছে 66 টি পিন বাকি ছিল। জনের কাছে প্রাথমিকভাবে কতটি পিন ছিল? A) 792 B) 66 C) 396 D) 72",
+        "25": "জন তার souvenir hat-এর pins-গুলি দুটি ভাগে ভাগ করলেন। দুটি ভাগে একই সংখ্যক পিন ছিল। তিনি তার brother-কে এক ভাগের এক-তৃতীয়াংশের অর্ধেক দিয়েছিলেন। জনের কাছে 66 টি পিন বাকি ছিল। জনের কাছে originally কতটি পিন ছিল? A) 792 B) 66 C) 396 D) 72",
+        "50": "জন তার souvenir hat-এর pins-গুলি দুটি piles-এ divide করলেন। দুটি piles-এ equal সংখ্যক pins ছিল। তিনি তার brother-কে এক pile-এর one-third-এর half দিয়েছিলেন। জনের কাছে 66 টি pins left ছিল। জনের কাছে originally কতটি পিন ছিল? A) 792 B) 66 C) 396 D) 72",
+        "75": "John তার souvenir hat pins-গুলি দুটি piles-এ divide করলেন। দুটি piles-এ equal number-এর pins ছিল। He তার brother-কে one pile-এর one-third-এর half give করেছিলেন। John-এর কাছে 66 টি pins left ছিল। John-এর কাছে originally কতটি pins ছিল? A) 792 B) 66 C) 396 D) 72",
+        "100": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.164,
+        "50": 0.397,
+        "75": 0.552
+      },
+      "retention": {
+        "25": 0.913,
+        "50": 0.652,
+        "75": 0.435
+      }
+    },
+    {
+      "sample_id": "professional_medicine/test/169",
+      "answer": "B",
+      "anchor_text": "একজন 57-বছর-বয়সী পুরুষ ফুসফুসের একটি স্কোয়ামাস সেল কার্সিনোমার জন্য রেডিয়েশন থেরাপি নিচ্ছেন। থেরাপি সত্ত্বেও, টিউমারের আকারে ক্রমাগত বেড়ে চলে এবং তিনি 6 মাস পর মারা যান। তার টিউমার কোষে p53 জিন (TP53)-এর একটি পয়েন্ট মিউটেশন রয়েছে, যা একটি নিষ্ক্রিয় জিন প্রোডাক্টের দিকে নিয়ে যায়। এই অনুসন্ধানের উপর ভিত্তি করে, ইর﻿্যাডিয়েশন থেরাপি সত্ত্বেও টিউমারের ক্রমবর্ধমান বৃদ্ধির সাথে সবচেয়ে সম্ভাব্যভাবে নিচের কোষ চক্রের কোন পর্যায়ে কোষ চক্র থেমে যাওয়ার একটি ত্রুটির সাথে সম্পর্কিত রয়েছে? A) G0 B) G1 C) G2 D) M",
+      "english_text": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M",
+      "stages": {
+        "0": "একজন 57-বছর-বয়সী পুরুষ ফুসফুসের একটি স্কোয়ামাস সেল কার্সিনোমার জন্য রেডিয়েশন থেরাপি নিচ্ছেন। থেরাপি সত্ত্বেও, টিউমারের আকারে ক্রমাগত বেড়ে চলে এবং তিনি 6 মাস পর মারা যান। তার টিউমার কোষে p53 জিন (TP53)-এর একটি পয়েন্ট মিউটেশন রয়েছে, যা একটি নিষ্ক্রিয় জিন প্রোডাক্টের দিকে নিয়ে যায়। এই অনুসন্ধানের উপর ভিত্তি করে, ইর﻿্যাডিয়েশন থেরাপি সত্ত্বেও টিউমারের ক্রমবর্ধমান বৃদ্ধির সাথে সবচেয়ে সম্ভাব্যভাবে নিচের কোষ চক্রের কোন পর্যায়ে কোষ চক্র থেমে যাওয়ার একটি ত্রুটির সাথে সম্পর্কিত রয়েছে? A) G0 B) G1 C) G2 D) M",
+        "25": "একজন 57-বছর-বয়সী man ফুসফুসের একটি squamous cell carcinoma-র জন্য radiation therapy নিচ্ছেন। therapy সত্ত্বেও, টিউমারের size-এ ক্রমাগত বেড়ে চলে এবং তিনি 6 মাস পর মারা যান। তার টিউমার কোষে p53 জিন (TP53)-এর একটি point mutation রয়েছে, যা একটি inactive জিন প্রোডাক্টের দিকে নিয়ে যায়। এই অনুসন্ধানের উপর ভিত্তি করে, ইর্যাডিয়েশন থেরাপি সত্ত্বেও টিউমারের ক্রমবর্ধমান বৃদ্ধির সাথে সবচেয়ে সম্ভাব্যভাবে নিচের কোষ চক্রের কোন পর্যায়ে cell cycle থেমে যাওয়ার একটি defect-এর সাথে সম্পর্কিত রয়েছে? A) G0 B) G1 C) G2 D) M",
+        "50": "একজন 57-year-old man lung-এর একটি squamous cell carcinoma-র জন্য radiation therapy নিচ্ছেন। therapy সত্ত্বেও, tumor-এর size-এ progressively বেড়ে চলে এবং তিনি 6 months পর dies করেন। তার tumor cells-এ p53 gene (TP53)-এর একটি point mutation রয়েছে, যা একটি inactive gene product-এর দিকে নিয়ে যায়। এই finding-এর উপর ভিত্তি করে, irradiation therapy সত্ত্বেও tumor-এর progressive growth-এর সাথে সবচেয়ে likely নিচের cell cycle-এর কোন পর্যায়ে cell cycle arrest-এর একটি defect-এর সাথে সম্পর্কিত রয়েছে? A) G0 B) G1 C) G2 D) M",
+        "75": "একজন 57-year-old man lung-এর একটি squamous cell carcinoma-র জন্য radiation therapy receive করছেন। therapy despite, tumor-এর size-এ progressively increase করে এবং he 6 months after dies করেন। his tumor cells-এ p53 gene (TP53)-এর একটি point mutation contain করে, যা একটি inactive gene product-এর towards lead করে। এই finding-এর উপর based করে, irradiation therapy despite tumor-এর progressive growth-এর সাথে most likely following cell cycle-এর which phase-এ cell cycle arrest-এর একটি defect-এর সাথে related রয়েছে? A) G0 B) G1 C) G2 D) M",
+        "100": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.19,
+        "50": 0.411,
+        "75": 0.591
+      },
+      "retention": {
+        "25": 0.966,
+        "50": 0.759,
+        "75": 0.483
+      }
+    },
+    {
+      "sample_id": "medical_genetics/test/15",
+      "answer": "A",
+      "anchor_text": "QTL বিশ্লেষণ ব্যবহার করা হয় A) একটি জেনেটিক সংকরে একটি জটিল বৈশিষ্ট্যের সাথে সংশ্লিষ্ট ক্রোমোজোম অঞ্চলগুলি শনাক্ত করতে B) বিকাশগত পর্যায়ে কোন জিনগুলি অভিব্যক্ত হয় তা নির্ধারণ করতে C) ব্যাকটেরিয়াল ভাইরাসে জিনগুলি ম্যাপ করতে D) RNA পলিমারেজ বাইন্ডিং সাইটগুলি শনাক্ত করতে",
+      "english_text": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites",
+      "stages": {
+        "0": "QTL বিশ্লেষণ ব্যবহার করা হয় A) একটি জেনেটিক সংকরে একটি জটিল বৈশিষ্ট্যের সাথে সংশ্লিষ্ট ক্রোমোজোম অঞ্চলগুলি শনাক্ত করতে B) বিকাশগত পর্যায়ে কোন জিনগুলি অভিব্যক্ত হয় তা নির্ধারণ করতে C) ব্যাকটেরিয়াল ভাইরাসে জিনগুলি ম্যাপ করতে D) RNA পলিমারেজ বাইন্ডিং সাইটগুলি শনাক্ত করতে",
+        "25": "QTL analysis ব্যবহার করা হয় A) একটি জেনেটিক সংকরে একটি জটিল trait-এর সাথে সংশ্লিষ্ট ক্রোমোজোম region-গুলি শনাক্ত করতে B) বিকাশগত পর্যায়ে কোন gene-গুলি expressed হয় তা নির্ধারণ করতে C) ব্যাকটেরিয়াল ভাইরাসে gene-গুলি ম্যাপ করতে D) RNA পলিমারেজ বাইন্ডিং site-গুলি identify করতে",
+        "50": "QTL analysis ব্যবহার করা হয় A) একটি genetic cross-এ একটি complex trait-এর সাথে associated chromosome region-গুলি identify করতে B) developmental stage-এ কোন gene-গুলি expressed হয় তা determine করতে C) bacterial virus-এ gene-গুলি map করতে D) RNA polymerase binding site-গুলি identify করতে",
+        "75": "QTL analysis use করা হয় A) একটি genetic cross-এ একটি complex trait-এর সাথে associated chromosome region-গুলি identify করতে B) developmental stage-এ which gene-গুলি expressed হয় তা determine করতে C) bacterial virus-এ gene-গুলি map করতে D) RNA polymerase binding site-গুলি identify করতে",
+        "100": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.139,
+        "50": 0.533,
+        "75": 0.589
+      },
+      "retention": {
+        "25": 0.885,
+        "50": 0.5,
+        "75": 0.423
+      }
+    },
+    {
+      "sample_id": "college_physics/test/20",
+      "answer": "C",
+      "anchor_text": "উচ্চ-শক্তির ইলেকট্রনগুলি যখন কোনও ধাতব লক্ষ্যবস্তুতে বোমা বর্ষণ করে, তখন চরিত্রগত এক্স-রশ্মি তৈরি হয়, যা একটি অবিচ্ছিন্ন পটভূমিতে তীক্ষ্ণ রেখা হিসাবে উপস্থিত হয়। নিচের কোন প্রক্রিয়ায় এক্স-রশ্মির বৈশিষ্ট্য দেখা যায়? A) সেরেনকভ বিকিরণ উৎপাদনকারী ইলেকট্রন B) ধাতুর মধ্যে ইলেকট্রনের সঙ্গে ফোননের সংঘর্ষ C) ধাতব পরমাণুতে তৈরি অভ্যন্তরীণ শেলের শূন্যপদ পূরণকারী ইলেক্ট্রন D) ইলেকট্রন প্রোটনের সাথে মিলিত হয়ে নিউট্রন গঠন করে",
+      "english_text": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons",
+      "stages": {
+        "0": "উচ্চ-শক্তির ইলেকট্রনগুলি যখন কোনও ধাতব লক্ষ্যবস্তুতে বোমা বর্ষণ করে, তখন চরিত্রগত এক্স-রশ্মি তৈরি হয়, যা একটি অবিচ্ছিন্ন পটভূমিতে তীক্ষ্ণ রেখা হিসাবে উপস্থিত হয়। নিচের কোন প্রক্রিয়ায় এক্স-রশ্মির বৈশিষ্ট্য দেখা যায়? A) সেরেনকভ বিকিরণ উৎপাদনকারী ইলেকট্রন B) ধাতুর মধ্যে ইলেকট্রনের সঙ্গে ফোননের সংঘর্ষ C) ধাতব পরমাণুতে তৈরি অভ্যন্তরীণ শেলের শূন্যপদ পূরণকারী ইলেক্ট্রন D) ইলেকট্রন প্রোটনের সাথে মিলিত হয়ে নিউট্রন গঠন করে",
+        "25": "উচ্চ-শক্তির electrons-গুলি যখন কোনও ধাতব target-এ বোমা বর্ষণ করে, তখন characteristic X-rays তৈরি হয়, যা একটি continuous পটভূমিতে sharp রেখা হিসাবে উপস্থিত হয়। নিচের কোন process-এ X-rays-এর বৈশিষ্ট্য দেখা যায়? A) Čerenkov radiation উৎপাদনকারী electrons B) ধাতুর মধ্যে electrons-এর সঙ্গে phonons-এর collision C) ধাতব পরমাণুতে তৈরি inner shell-এর vacancies পূরণকারী electrons D) electrons প্রোটনের সাথে মিলিত হয়ে neutrons গঠন করে",
+        "50": "high-energy electrons-গুলি যখন কোনও metal target-এ bombard করে, তখন characteristic X-rays তৈরি হয়, যা একটি continuous background-এ sharp lines হিসাবে appear করে। নিচের কোন process-এ characteristic X-rays দেখা যায়? A) Čerenkov radiation producing electrons B) metal-এর মধ্যে electrons-এর সঙ্গে phonons-এর collision C) metal atoms-এ created inner shell vacancies filling electrons D) electrons, protons-এর সাথে combine হয়ে neutrons form করে",
+        "75": "high-energy electrons-গুলি যখন metal target-এ bombard করে, তখন characteristic X-rays produce হয়, যা continuous background-এ sharp lines হিসেবে appear হয়। নিচের কোন process-এর resulting-এ characteristic X-rays produce হয়? A) Čerenkov radiation produce-কারী electrons B) metal-এর inside-এ electrons-এর সাথে phonons-এর colliding C) metal atoms-এ create হওয়া inner shell vacancies fill-কারী electrons D) electrons, protons-এর সাথে combine হয়ে neutrons form করে",
+        "100": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.273,
+        "50": 0.494,
+        "75": 0.545
+      },
+      "retention": {
+        "25": 0.848,
+        "50": 0.606,
+        "75": 0.455
+      }
+    }
+  ]
+}

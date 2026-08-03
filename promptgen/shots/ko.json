@@ -1,0 +1,138 @@
+{
+  "anchor": {
+    "code": "ko",
+    "name": "Korean",
+    "morphology": "agglutinative",
+    "word_order": "SOV",
+    "script": "non-latin",
+    "resource": "mid",
+    "translation": "human"
+  },
+  "items": [
+    {
+      "sample_id": "clinical_knowledge/test/65",
+      "answer": "D",
+      "anchor_text": "저혈량 쇼크에서 심박수와 혈압의 변화에 반영되기 전에 손실되는 혈액의 비율은 몇 퍼센트인가? A) 5% B) 10% C) 20% D) 30%",
+      "english_text": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%",
+      "stages": {
+        "0": "저혈량 쇼크에서 심박수와 혈압의 변화에 반영되기 전에 손실되는 혈액의 비율은 몇 퍼센트인가? A) 5% B) 10% C) 20% D) 30%",
+        "25": "hypovolaemic shock에서 심박수와 혈압의 변화에 반영되기 전에 손실되는 blood의 비율은 몇 퍼센트인가? A) 5% B) 10% C) 20% D) 30%",
+        "50": "hypovolaemic shock에서 heart rate와 blood pressure의 변화에 반영되기 전에 손실되는 blood의 비율은 몇 퍼센트인가? A) 5% B) 10% C) 20% D) 30%",
+        "75": "hypovolaemic shock에서 heart rate와 blood pressure의 changes에 reflect되기 전에 lost되는 blood의 percentage는 몇 퍼센트인가? A) 5% B) 10% C) 20% D) 30%",
+        "100": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.157,
+        "50": 0.312,
+        "75": 0.528
+      },
+      "retention": {
+        "25": 0.848,
+        "50": 0.697,
+        "75": 0.424
+      }
+    },
+    {
+      "sample_id": "high_school_mathematics/test/48",
+      "answer": "D",
+      "anchor_text": "John은 기념 모자 핀을 두 더미로 나누었습니다. 두 더미에는 같은 수의 핀이 들어 있었습니다. John은 형제에게 한 더미에서 1/3의 1/2를 주었습니다. John에게 남아 있는 핀은 66개였습니다. John이 처음에 가지고 있었던 핀은 몇 개입니까? A) 792 B) 66 C) 396 D) 72",
+      "english_text": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72",
+      "stages": {
+        "0": "John은 기념 모자 핀을 두 더미로 나누었습니다. 두 더미에는 같은 수의 핀이 들어 있었습니다. John은 형제에게 한 더미에서 1/3의 1/2를 주었습니다. John에게 남아 있는 핀은 66개였습니다. John이 처음에 가지고 있었던 핀은 몇 개입니까? A) 792 B) 66 C) 396 D) 72",
+        "25": "John은 souvenir hat pin을 두 pile로 나누었습니다. 두 pile에는 같은 수의 pin이 들어 있었습니다. John은 brother에게 한 pile에서 1/3의 1/2를 주었습니다. John에게 남아 있는 pin은 66개였습니다. John이 originally 가지고 있었던 pin은 몇 개입니까? A) 792 B) 66 C) 396 D) 72",
+        "50": "John은 souvenir hat pin을 두 pile로 divide했습니다. 두 pile에는 equal number의 pin이 들어 있었습니다. John은 brother에게 한 pile에서 1/3의 1/2를 give했습니다. John에게 left된 pin은 66개였습니다. John이 originally have하고 있었던 pin은 몇 개입니까? A) 792 B) 66 C) 396 D) 72",
+        "75": "John은 souvenir hat pin을 two pile로 divide했습니다. Two pile에는 equal number의 pin이 contain되어 있었습니다. John은 brother에게 one pile에서 1/3의 1/2를 give했습니다. John에게 remaining pin은 66개였습니다. John이 originally have했던 pin은 how many 개입니까? A) 792 B) 66 C) 396 D) 72",
+        "100": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.193,
+        "50": 0.36,
+        "75": 0.476
+      },
+      "retention": {
+        "25": 0.776,
+        "50": 0.592,
+        "75": 0.49
+      }
+    },
+    {
+      "sample_id": "professional_medicine/test/169",
+      "answer": "B",
+      "anchor_text": "57세 남성이 폐편평상피암에 대해 방사선 요법을 받았습니다. 요법에도 불구하고 종양의 크기가 점차 증가하여 남성은 6개월 후 사망했습니다. 남성의 종양 세포에는 p53 유전자(TP53)에 점 돌연변이가 있었으며 불활성 유전자 산물로 이어졌습니다. 이 소견에 근거할 때, 다음 세포 주기 단계 중 세포 주기 정지의 결함이 방사선 요법에도 불구하고 진행성 종양이 성장한 것과 가장 관련 가능성이 높은 것은 무엇입니까? A) G0 B) G1 C) G2 D) M",
+      "english_text": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M",
+      "stages": {
+        "0": "57세 남성이 폐편평상피암에 대해 방사선 요법을 받았습니다. 요법에도 불구하고 종양의 크기가 점차 증가하여 남성은 6개월 후 사망했습니다. 남성의 종양 세포에는 p53 유전자(TP53)에 점 돌연변이가 있었으며 불활성 유전자 산물로 이어졌습니다. 이 소견에 근거할 때, 다음 세포 주기 단계 중 세포 주기 정지의 결함이 방사선 요법에도 불구하고 진행성 종양이 성장한 것과 가장 관련 가능성이 높은 것은 무엇입니까? A) G0 B) G1 C) G2 D) M",
+        "25": "57세 남성이 squamous cell carcinoma of the lung에 대해 radiation therapy를 받았습니다. 요법에도 불구하고 종양의 크기가 점차 증가하여 남성은 6개월 후 사망했습니다. 남성의 종양 세포에는 p53 유전자(TP53)에 point mutation이 있었으며 inactive gene product로 이어졌습니다. 이 소견에 근거할 때, 다음 세포 주기 단계 중 cell cycle arrest의 결함이 radiation therapy에도 불구하고 진행성 종양이 성장한 것과 가장 관련 가능성이 높은 것은 무엇입니까? A) G0 B) G1 C) G2 D) M",
+        "50": "57-year-old man이 squamous cell carcinoma of the lung에 대해 radiation therapy를 받았습니다. therapy에도 불구하고 tumor의 size가 점차 증가하여 man은 6개월 후 die했습니다. man의 tumor cells에는 p53 유전자(TP53)에 point mutation이 있었으며 inactive gene product로 이어졌습니다. 이 finding에 근거할 때, 다음 cell cycle phase 중 cell cycle arrest의 defect가 radiation therapy에도 불구하고 진행성 tumor가 성장한 것과 가장 관련 가능성이 높은 것은 무엇입니까? A) G0 B) G1 C) G2 D) M",
+        "75": "57-year-old man이 squamous cell carcinoma of the lung에 대해 radiation therapy를 receive했습니다. therapy에도 불구하고 tumor의 size가 progressively increase하여 man은 6 months 후 die했습니다. man의 tumor cells에는 p53 gene(TP53)에 point mutation이 있었으며 inactive gene product로 lead했습니다. 이 finding에 base할 때, 다음 cell cycle phase 중 cell cycle arrest의 defect가 radiation therapy에도 불구하고 progressive tumor가 grow한 것과 가장 most likely related한 것은 무엇입니까? A) G0 B) G1 C) G2 D) M",
+        "100": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.258,
+        "50": 0.412,
+        "75": 0.583
+      },
+      "retention": {
+        "25": 0.815,
+        "50": 0.62,
+        "75": 0.391
+      }
+    },
+    {
+      "sample_id": "medical_genetics/test/15",
+      "answer": "A",
+      "anchor_text": "QTL 분석이 사용되는 목적은 A) 한 유전 교배에서 복합 형질과 관련 있는 염색체 부위를 식별하기 위해 B) 발달 단계에서 발현되는 유전자를 확인하기 위해 C) 세균 바이러스에서 유전자를 매핑하기 위해 D) RNA 중합효소 결합 부위를 식별하기 위해",
+      "english_text": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites",
+      "stages": {
+        "0": "QTL 분석이 사용되는 목적은 A) 한 유전 교배에서 복합 형질과 관련 있는 염색체 부위를 식별하기 위해 B) 발달 단계에서 발현되는 유전자를 확인하기 위해 C) 세균 바이러스에서 유전자를 매핑하기 위해 D) RNA 중합효소 결합 부위를 식별하기 위해",
+        "25": "QTL analysis가 사용되는 목적은 A) 한 genetic cross에서 복합 형질과 관련 있는 chromosome 부위를 식별하기 위해 B) 발달 stage에서 발현되는 genes를 확인하기 위해 C) bacterial viruses에서 유전자를 매핑하기 위해 D) RNA polymerase 결합 부위를 식별하기 위해",
+        "50": "QTL analysis가 used되는 목적은 A) 한 genetic cross에서 complex trait과 관련 있는 chromosome 부위를 identify하기 위해 B) developmental stage에서 발현되는 genes를 determine하기 위해 C) bacterial viruses에서 genes를 map하기 위해 D) RNA polymerase binding 부위를 identify하기 위해",
+        "75": "QTL analysis가 used되는 purpose는 A) one genetic cross에서 complex trait과 associated 있는 chromosome regions를 identify하기 위해 B) developmental stage에서 expressed되는 genes를 determine하기 위해 C) bacterial viruses에서 genes를 map하기 위해 D) RNA polymerase binding sites를 identify하기 위해",
+        "100": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.323,
+        "50": 0.625,
+        "75": 0.789
+      },
+      "retention": {
+        "25": 0.673,
+        "50": 0.364,
+        "75": 0.2
+      }
+    },
+    {
+      "sample_id": "college_physics/test/20",
+      "answer": "C",
+      "anchor_text": "연속 평면에 날카로운 선으로 표시되는 고유 X선은 고에너지 전자가 금속 표적에 충돌할 때 생성됩니다. 다음 과정 중 어느 것이 고유 X선을 만들게 될까요? A) 체렌코프 방사를 생성하는 전자 B) 금속의 음자(phonon)과 충돌하는 전자 C) 금속 전자에서 생성되는 내부 셸 공간을 채우는 전자 D) 양성자와 결합하여 중성자를 형성하는 전자",
+      "english_text": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons",
+      "stages": {
+        "0": "연속 평면에 날카로운 선으로 표시되는 고유 X선은 고에너지 전자가 금속 표적에 충돌할 때 생성됩니다. 다음 과정 중 어느 것이 고유 X선을 만들게 될까요? A) 체렌코프 방사를 생성하는 전자 B) 금속의 음자(phonon)과 충돌하는 전자 C) 금속 전자에서 생성되는 내부 셸 공간을 채우는 전자 D) 양성자와 결합하여 중성자를 형성하는 전자",
+        "25": "연속 평면에 날카로운 선으로 표시되는 characteristic X-rays는 high-energy 전자가 금속 target에 충돌할 때 생성됩니다. 다음 과정 중 어느 것이 characteristic X-rays를 만들게 될까요? A) Čerenkov radiation을 생성하는 전자 B) 금속의 phonons과 충돌하는 전자 C) 금속 전자에서 생성되는 inner shell vacancies를 채우는 전자 D) protons와 결합하여 neutrons를 형성하는 전자",
+        "50": "continuous background에 sharp lines로 표시되는 characteristic X-rays는 high-energy electrons가 metal target에 collide할 때 생성됩니다. 다음 processes 중 어느 것이 characteristic X-rays를 만들게 될까요? A) Čerenkov radiation을 produce하는 electrons B) metal의 phonons과 collide하는 electrons C) metal 전자에서 생성되는 inner shell vacancies를 fill하는 electrons D) protons와 결합하여 neutrons를 form하는 electrons",
+        "75": "continuous background에 sharp lines로 appearing되는 characteristic X-rays는 high-energy electrons가 metal target에 collide할 때 produce됩니다. following processes 중 어느 것이 characteristic X-rays를 result하게 될까요? A) Čerenkov radiation을 produce하는 electrons B) metal의 phonons과 colliding하는 electrons C) metal atoms에서 create되는 inner shell vacancies를 filling하는 electrons D) protons와 combine하여 neutrons를 form하는 electrons",
+        "100": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.29,
+        "50": 0.484,
+        "75": 0.62
+      },
+      "retention": {
+        "25": 0.74,
+        "50": 0.521,
+        "75": 0.37
+      }
+    }
+  ]
+}

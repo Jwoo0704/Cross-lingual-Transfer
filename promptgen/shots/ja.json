@@ -1,0 +1,138 @@
+{
+  "anchor": {
+    "code": "ja",
+    "name": "Japanese",
+    "morphology": "agglutinative",
+    "word_order": "SOV",
+    "script": "non-latin",
+    "resource": "high",
+    "translation": "human"
+  },
+  "items": [
+    {
+      "sample_id": "clinical_knowledge/test/65",
+      "answer": "D",
+      "anchor_text": "循環血液量減少性ショックでは、心拍数と血圧の変化に反映されるまでに何パーセントの血液が失われる可能性がありますか？ A) 5% B) 10% C) 20% D) 30%",
+      "english_text": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%",
+      "stages": {
+        "0": "循環血液量減少性ショックでは、心拍数と血圧の変化に反映されるまでに何パーセントの血液が失われる可能性がありますか？ A) 5% B) 10% C) 20% D) 30%",
+        "25": "hypovolaemic shockでは、心拍数と血圧の変化に反映されるまでに何パーセントのbloodが失われる可能性がありますか？ A) 5% B) 10% C) 20% D) 30%",
+        "50": "hypovolaemic shockでは、heart rateとblood pressureの変化にreflectedされるまでに何パーセントのbloodがlostされる可能性がありますか？ A) 5% B) 10% C) 20% D) 30%",
+        "75": "hypovolaemic shockでは、heart rateとblood pressureのchangesにreflectedされるまでにwhat percentageのbloodがlostされるpossibilityがありますか？ A) 5% B) 10% C) 20% D) 30%",
+        "100": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.17,
+        "50": 0.426,
+        "75": 0.645
+      },
+      "retention": {
+        "25": 0.773,
+        "50": 0.568,
+        "75": 0.318
+      }
+    },
+    {
+      "sample_id": "high_school_mathematics/test/48",
+      "answer": "D",
+      "anchor_text": "ジョンは土産品のハットピンを2つの山に分けた。2つの山のピン数は同数であった。彼は弟に1つの山の3分の1の2分の1を渡した。ジョンの手元には66本のピンが残っている。ジョンはもともと何本のピンを持っていたか。 A) 792 B) 66 C) 396 D) 72",
+      "english_text": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72",
+      "stages": {
+        "0": "ジョンは土産品のハットピンを2つの山に分けた。2つの山のピン数は同数であった。彼は弟に1つの山の3分の1の2分の1を渡した。ジョンの手元には66本のピンが残っている。ジョンはもともと何本のピンを持っていたか。 A) 792 B) 66 C) 396 D) 72",
+        "25": "ジョンはsouvenirのハットピンを2つの山にdivideした。2つの山のピン数は同数であった。彼はbrotherに1つの山の3分の1の2分の1をgiveした。ジョンの手元には66本のピンが残っている。ジョンはoriginally何本のピンを持っていたか。 A) 792 B) 66 C) 396 D) 72",
+        "50": "ジョンはsouvenirのhat pinを2つのpileにdivideした。2つのpileのnumber of pinsはequalであった。彼はbrotherに1つのpileの3分の1の2分の1をgiveした。ジョンのhandには66本のpinがleftしている。ジョンはoriginally何本のpinをhadしていたか。 A) 792 B) 66 C) 396 D) 72",
+        "75": "Johnはsouvenir hat pinsをtwoのpilesにdivideした。twoのpilesのnumber of pinsはequalであった。Heはbrotherにoneのpileのone-thirdのone-halfをgiveした。Johnのhandには66本のpinsがleftしている。Johnはoriginally how many本のpinsをhaveしていたか。 A) 792 B) 66 C) 396 D) 72",
+        "100": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.116,
+        "50": 0.409,
+        "75": 0.677
+      },
+      "retention": {
+        "25": 0.818,
+        "50": 0.568,
+        "75": 0.341
+      }
+    },
+    {
+      "sample_id": "professional_medicine/test/169",
+      "answer": "B",
+      "anchor_text": "57歳男性は肺扁平上皮癌に対する放射線治療を受けた。治療にもかかわらず腫瘍の大きさは徐々に増大し、6ヵ月後に死亡した。患者の腫瘍細胞はp53遺伝子（TP53）に点突然変異を有し、不活性遺伝子産物が産生されていた。この所見に基づくと、放射線療法にもかかわらず腫瘍が徐々に増殖する原因として、細胞周期停止時の欠陥が考えられるのは次のうちどの期か？ A) G0期 B) G1期 C) G2期 D) M期",
+      "english_text": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M",
+      "stages": {
+        "0": "57歳男性は肺扁平上皮癌に対する放射線治療を受けた。治療にもかかわらず腫瘍の大きさは徐々に増大し、6ヵ月後に死亡した。患者の腫瘍細胞はp53遺伝子（TP53）に点突然変異を有し、不活性遺伝子産物が産生されていた。この所見に基づくと、放射線療法にもかかわらず腫瘍が徐々に増殖する原因として、細胞周期停止時の欠陥が考えられるのは次のうちどの期か？ A) G0期 B) G1期 C) G2期 D) M期",
+        "25": "57-year-old manは肺のsquamous cell carcinomaに対するradiation therapyを受けた。治療にもかかわらずtumorの大きさは徐々に増大し、6ヵ月後に死亡した。患者のtumor cellsはp53遺伝子（TP53）にpoint mutationを有し、不活性遺伝子産物が産生されていた。この所見に基づくと、放射線療法にもかかわらずtumorが徐々に増殖する原因として、cell cycle停止時の欠陥が考えられるのは次のうちどの期か？ A) G0期 B) G1期 C) G2期 D) M期",
+        "50": "57-year-old manはlungのsquamous cell carcinomaに対するradiation therapyを受けた。Therapyにもかかわらずtumorのsizeは徐々にincreaseし、6 months laterに死亡した。Patientのtumor cellsはp53 gene（TP53）にpoint mutationを有し、inactive gene productがproducedされていた。このfindingに基づくと、radiation therapyにもかかわらずtumorが徐々にgrowするcauseとして、cell cycle arrest時のdefectが考えられるのは次のうちどのphaseか？ A) G0 phase B) G1 phase C) G2 phase D) M phase",
+        "75": "57-year-old manはlungのsquamous cell carcinomaに対するradiation therapyをreceiveした。Therapyにもかかわらずtumorのsizeはprogressivelyにincreaseし、6 months laterにdieした。Patientのtumor cellsはp53 gene（TP53）にpoint mutationをcontainし、inactive gene productがproduceされていた。This findingにbasedすると、radiation therapyにもかかわらずtumorがprogressivelyにgrowするcauseとして、cell cycle arrest時のdefectがconsiderされるのはnextのうちwhich phaseか？ A) G0 phase B) G1 phase C) G2 phase D) M phase",
+        "100": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.233,
+        "50": 0.504,
+        "75": 0.672
+      },
+      "retention": {
+        "25": 0.809,
+        "50": 0.427,
+        "75": 0.258
+      }
+    },
+    {
+      "sample_id": "medical_genetics/test/15",
+      "answer": "A",
+      "anchor_text": "QTL解析は、_______に使用する。 A) 遺伝的交雑における複合形質に関連する染色体領域を特定するため B) どの遺伝子が発生段階で発現するかを判定するため C) 細菌ウイルスの遺伝子をマッピングするため D) RNAポリメラーゼ結合部位を特定するため",
+      "english_text": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites",
+      "stages": {
+        "0": "QTL解析は、_______に使用する。 A) 遺伝的交雑における複合形質に関連する染色体領域を特定するため B) どの遺伝子が発生段階で発現するかを判定するため C) 細菌ウイルスの遺伝子をマッピングするため D) RNAポリメラーゼ結合部位を特定するため",
+        "25": "QTL analysisは、___に使用する。 A) 遺伝的交雑における複合形質に関連するchromosome regionsを特定するため B) どの遺伝子がdevelopmental stageで発現するかを判定するため C) 細菌ウイルスの遺伝子をマッピングするため D) RNAポリメラーゼbinding sitesを特定するため",
+        "50": "QTL analysisは、___に使用する。 A) genetic crossにおける複合形質に関連するchromosome regionsをidentifyするため B) どのgenesがdevelopmental stageで発現するかを判定するため C) bacterial virusesのgenesをマッピングするため D) RNA polymerase binding sitesをidentifyするため",
+        "75": "QTL analysisは、___にuseする。 A) genetic crossにおけるcomplex traitにassociateするchromosome regionsをidentifyするため B) どのgenesがdevelopmental stageでexpressするかをdetermineするため C) bacterial virusesのgenesをmapするため D) RNA polymerase binding sitesをidentifyするため",
+        "100": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.24,
+        "50": 0.504,
+        "75": 0.743
+      },
+      "retention": {
+        "25": 0.794,
+        "50": 0.492,
+        "75": 0.222
+      }
+    },
+    {
+      "sample_id": "college_physics/test/20",
+      "answer": "C",
+      "anchor_text": "高エネルギー電子が金属標的に入射すると、連続した背景に明確な線として特性X線が発生する。特性X線が発生する過程は次のうちどれか。 A) 電子がチェレンコフ放射を発生させる B) 電子が金属中のフォノンと衝突する C) 電子が金属原子に生じた内殻空孔を埋める D) 電子が陽子と結合して中性子を形成する",
+      "english_text": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons",
+      "stages": {
+        "0": "高エネルギー電子が金属標的に入射すると、連続した背景に明確な線として特性X線が発生する。特性X線が発生する過程は次のうちどれか。 A) 電子がチェレンコフ放射を発生させる B) 電子が金属中のフォノンと衝突する C) 電子が金属原子に生じた内殻空孔を埋める D) 電子が陽子と結合して中性子を形成する",
+        "25": "高エネルギーelectronがmetal標的に入射すると、continuousな背景にsharpな線としてcharacteristic X線が発生する。characteristic X線が発生する過程は次のうちどれか。 A) electronがČerenkov radiationを発生させる B) electronが金属中のphononと衝突する C) electronが金属原子に生じたinner shell vacancyを埋める D) electronがprotonと結合してneutronを形成する",
+        "50": "High-energy electronがmetal targetに入射すると、continuousなbackgroundにsharp lineとしてcharacteristic X-rayが発生する。characteristic X-rayが発生するprocessは次のうちどれか。 A) electronがČerenkov radiationをproduceさせる B) electronがmetal中のphononとcollideする C) electronがmetal atomに生じたinner shell vacancyをfillする D) electronがprotonとcombineしてneutronをformする",
+        "75": "High-energy electronがmetal targetにbombardすると、continuousなbackgroundにsharp lineとしてcharacteristic X-rayがproduceされる。characteristic X-rayがproduceされるprocessはfollowingのうちどれか。 A) electronがČerenkov radiationをproduceさせる B) electronがmetal中のphononとcollideする C) electronがmetal atomにcreatedされたinner shell vacancyをfillする D) electronがprotonとcombineしてneutronをformする",
+        "100": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.208,
+        "50": 0.456,
+        "75": 0.573
+      },
+      "retention": {
+        "25": 0.708,
+        "50": 0.361,
+        "75": 0.278
+      }
+    }
+  ]
+}

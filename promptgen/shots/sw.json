@@ -1,0 +1,138 @@
+{
+  "anchor": {
+    "code": "sw",
+    "name": "Swahili",
+    "morphology": "agglutinative",
+    "word_order": "SVO",
+    "script": "latin",
+    "resource": "low",
+    "translation": "human"
+  },
+  "items": [
+    {
+      "sample_id": "clinical_knowledge/test/65",
+      "answer": "D",
+      "anchor_text": "Je, kwenye mshtuko wa hypovolemic, ni asilimia ngapi ya damu inayoweza kupotea kabla ya kuakisiwa katika mabadiliko ya mapigo ya moyo na shinikizo la damu? A) 5% B) 10% C) 20% D) 30%",
+      "english_text": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%",
+      "stages": {
+        "0": "Je, kwenye mshtuko wa hypovolemic, ni asilimia ngapi ya damu inayoweza kupotea kabla ya kuakisiwa katika mabadiliko ya mapigo ya moyo na shinikizo la damu? A) 5% B) 10% C) 20% D) 30%",
+        "25": "Je, kwenye mshtuko wa hypovolemic, ni asilimia ngapi ya blood inayoweza kupotea kabla ya kuakisiwa katika mabadiliko ya mapigo ya heart na shinikizo la blood? A) 5% B) 10% C) 20% D) 30%",
+        "50": "Je, kwenye shock wa hypovolemic, ni percentage ngapi ya blood inayoweza kupotea kabla ya kuakisiwa katika changes za heart rate na blood pressure? A) 5% B) 10% C) 20% D) 30%",
+        "75": "Je, kwenye hypovolemic shock, ni percentage ngapi ya blood inayoweza be lost kabla ya be reflected katika changes za heart rate na blood pressure? A) 5% B) 10% C) 20% D) 30%",
+        "100": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.104,
+        "50": 0.373,
+        "75": 0.525
+      },
+      "retention": {
+        "25": 0.905,
+        "50": 0.619,
+        "75": 0.476
+      }
+    },
+    {
+      "sample_id": "high_school_mathematics/test/48",
+      "answer": "D",
+      "anchor_text": "John aligawanya pini zake kofia za ukumbusho katika marundo mawili. Marundo haya mawili yalikuwa na idadi sawa ya pini. Alimpa kaka yake nusu ya theluthi ya rundo moja. John alikuwa amebakia na pini 66. John alikuwa na pini ngapi hapo mwanzoni? A) 792 B) 66 C) 396 D) 72",
+      "english_text": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72",
+      "stages": {
+        "0": "John aligawanya pini zake kofia za ukumbusho katika marundo mawili. Marundo haya mawili yalikuwa na idadi sawa ya pini. Alimpa kaka yake nusu ya theluthi ya rundo moja. John alikuwa amebakia na pini 66. John alikuwa na pini ngapi hapo mwanzoni? A) 792 B) 66 C) 396 D) 72",
+        "25": "John aligawanya pins zake hat za ukumbusho katika marundo mawili. Marundo haya mawili yalikuwa na idadi sawa ya pins. Alimpa brother yake nusu ya theluthi ya rundo moja. John alikuwa amebakia na pins 66. John alikuwa na pins ngapi hapo mwanzoni? A) 792 B) 66 C) 396 D) 72",
+        "50": "John aligawanya pins zake hat za souvenir katika piles mawili. Piles haya mawili yalikuwa na number equal ya pins. Alimpa brother yake half ya third ya pile moja. John alikuwa amebakia na pins 66. John alikuwa na pins ngapi hapo originally? A) 792 B) 66 C) 396 D) 72",
+        "75": "John alidivide pins zake hat za souvenir katika piles two. Piles haya two yalikuwa na number equal ya pins. Alimgive brother yake half ya third ya pile one. John alikuwa ameremain na pins how many hapo originally? A) 792 B) 66 C) 396 D) 72",
+        "100": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.111,
+        "50": 0.407,
+        "75": 0.6
+      },
+      "retention": {
+        "25": 0.889,
+        "50": 0.593,
+        "75": 0.37
+      }
+    },
+    {
+      "sample_id": "professional_medicine/test/169",
+      "answer": "B",
+      "anchor_text": "Mwanamume mwenye umri wa miaka 57 anapokea tiba ya mionzi ya saratani ya sell ya mapafu. Licha ya matibabu, ukubwa wa uvimbe huongezeka polepole, na hufa miezi 6 baadaye. Seli zake za uvimbe zina mabadiliko katika jeni ya p53 (TP53), na kusababisha bidhaa ya jeni isiyofanya kazi. Kulingana na ugunduzi huu, ukuaji wa uvimbe unaoendelea licha ya tiba ya mionzi una uwezekano mkubwa wa kuhusishwa na kasoro katika kukamatwa kwa mzunguko wa seli katika awamu zipi kati ya zifuatazo za mzunguko wa seli? A) G0 B) G1 C) G2 D) M",
+      "english_text": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M",
+      "stages": {
+        "0": "Mwanamume mwenye umri wa miaka 57 anapokea tiba ya mionzi ya saratani ya sell ya mapafu. Licha ya matibabu, ukubwa wa uvimbe huongezeka polepole, na hufa miezi 6 baadaye. Seli zake za uvimbe zina mabadiliko katika jeni ya p53 (TP53), na kusababisha bidhaa ya jeni isiyofanya kazi. Kulingana na ugunduzi huu, ukuaji wa uvimbe unaoendelea licha ya tiba ya mionzi una uwezekano mkubwa wa kuhusishwa na kasoro katika kukamatwa kwa mzunguko wa seli katika awamu zipi kati ya zifuatazo za mzunguko wa seli? A) G0 B) G1 C) G2 D) M",
+        "25": "Mwanamume mwenye umri wa miaka 57 anapokea radiation therapy ya saratani ya squamous cell ya mapafu. Licha ya matibabu, size wa uvimbe huongezeka polepole, na hufa miezi 6 baadaye. Seli zake za tumor zina point mutation katika jeni ya p53 (TP53), na kusababisha product ya jeni isiyofanya kazi. Kulingana na finding huu, ukuaji wa tumor unaoendelea licha ya radiation therapy una uwezekano mkubwa wa kuhusishwa na defect katika cell cycle arrest katika awamu zipi kati ya zifuatazo za mzunguko wa seli? A) G0 B) G1 C) G2 D) M",
+        "50": "Man mwenye age wa years 57 anapokea radiation therapy kwa squamous cell carcinoma ya lung. Licha ya therapy, size wa tumor huincrease polepole, na hufa months 6 baadaye. Cell zake za tumor zina point mutation katika gene ya p53 (TP53), na kusababisha inactive gene product. Kulingana na finding huu, progressive growth wa tumor unaoendelea licha ya radiation therapy una likelihood kubwa wa kuhusishwa na defect katika cell cycle arrest katika phases zipi kati ya zifuatazo za cell cycle? A) G0 B) G1 C) G2 D) M",
+        "75": "Man mwenye age wa years 57 anareceive radiation therapy kwa squamous cell carcinoma ya lung. Licha ya therapy, size wa tumor huincrease progressively, na hudie months 6 later. Cell zake za tumor zinacontain point mutation katika gene ya p53 (TP53), na kulead kwa inactive gene product. Kulingana na finding huu, progressive tumor growth unaoendelea licha ya irradiation therapy una high likelihood wa kuhusishwa na defect katika cell cycle arrest katika phases zipi kati ya following za cell cycle? A) G0 B) G1 C) G2 D) M",
+        "100": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.235,
+        "50": 0.474,
+        "75": 0.605
+      },
+      "retention": {
+        "25": 0.8,
+        "50": 0.46,
+        "75": 0.32
+      }
+    },
+    {
+      "sample_id": "medical_genetics/test/15",
+      "answer": "A",
+      "anchor_text": "Uchambuzi wa QTL hutumika kwa A) kutambua maeneo ya kromosomu yanayohusiana na sifa ngumu katika msalaba wa kijenetiki B) Kutambua ni vinasaba vipi vinavyotamkwa katika hatua ya maendeleo C) Kuainisha vinasaba katika virusi vya bakteria D) Kutambua maeneo ya kushikamana kwa polima ya RNA",
+      "english_text": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites",
+      "stages": {
+        "0": "Uchambuzi wa QTL hutumika kwa A) kutambua maeneo ya kromosomu yanayohusiana na sifa ngumu katika msalaba wa kijenetiki B) Kutambua ni vinasaba vipi vinavyotamkwa katika hatua ya maendeleo C) Kuainisha vinasaba katika virusi vya bakteria D) Kutambua maeneo ya kushikamana kwa polima ya RNA",
+        "25": "Uchambuzi wa QTL hutumika kwa A) kutambua maeneo ya chromosome yanayohusiana na sifa ngumu katika msalaba wa genetic B) Kutambua ni genes vipi vinavyotamkwa katika hatua ya maendeleo C) Kuainisha genes katika virusi vya bakteria D) Kutambua maeneo ya binding kwa polima ya RNA",
+        "50": "Uchambuzi wa QTL hutumika kwa A) identify maeneo ya chromosome yanayohusiana na trait ngumu katika cross wa genetic B) Kutambua ni genes vipi vinavyotamkwa katika stage ya development C) Map genes katika virusi vya bakteria D) identify maeneo ya binding kwa RNA polymerase",
+        "75": "Analysis wa QTL hutumika kwa A) identify regions ya chromosome yanayohusiana na trait complex katika cross wa genetic B) determine ni genes vipi vinavyotamkwa katika stage ya development C) map genes katika viruses vya bacterial D) identify regions ya binding kwa RNA polymerase",
+        "100": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.144,
+        "50": 0.362,
+        "75": 0.584
+      },
+      "retention": {
+        "25": 0.852,
+        "50": 0.63,
+        "75": 0.407
+      }
+    },
+    {
+      "sample_id": "college_physics/test/20",
+      "answer": "C",
+      "anchor_text": "Mionzi ya X yenye sifa halisi, inayoonekana kama mistari mikali kwenye usuli unaoendelea, hutolewa wakati elektroni zenye nishati nyingi zinapopiga shabaha ya chuma. Ni ipi kati ya michakato ifuatayo inayosababisha tabia ya X-ray? A) Elektroni zinazozalisha mionzi ya Čerenkov B) Elektroni zinazogongana na fononi kwenye chuma C) Elektroni zinazojaza nafasi za ganda la ndani ambazo zinaundwa katika atomi za chuma D) Elektroni zikichanganyikana na protoni kuunda nyutroni",
+      "english_text": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons",
+      "stages": {
+        "0": "Mionzi ya X yenye sifa halisi, inayoonekana kama mistari mikali kwenye usuli unaoendelea, hutolewa wakati elektroni zenye nishati nyingi zinapopiga shabaha ya chuma. Ni ipi kati ya michakato ifuatayo inayosababisha tabia ya X-ray? A) Elektroni zinazozalisha mionzi ya Čerenkov B) Elektroni zinazogongana na fononi kwenye chuma C) Elektroni zinazojaza nafasi za ganda la ndani ambazo zinaundwa katika atomi za chuma D) Elektroni zikichanganyikana na protoni kuunda nyutroni",
+        "25": "Mionzi ya X yenye sifa characteristic, inayoonekana kama sharp lines kwenye background unaoendelea, hutolewa wakati electrons zenye nishati nyingi zinapopiga target ya chuma. Ni ipi kati ya processes ifuatayo inayosababisha tabia ya X-ray? A) Electrons zinazozalisha radiation ya Čerenkov B) Electrons zinazogongana na phonons kwenye chuma C) Electrons zinazojaza vacancies za ganda la ndani ambazo zinaundwa katika atomi za chuma D) Electrons zikichanganyikana na protoni kuunda neutrons",
+        "50": "Characteristic X rays, inayoonekana kama sharp lines kwenye continuous background, hutolewa wakati high-energy electrons zinapopiga metal target. Ni ipi kati ya processes ifuatayo inayosababisha characteristic X rays? A) Electrons zinazoproduce radiation ya Čerenkov B) Electrons zinazocollide na phonons kwenye metal C) Electrons zinazojaza inner shell vacancies ambazo zinaundwa katika metal atoms D) Electrons zikicombine na protons kuunda neutrons",
+        "75": "Characteristic X rays, inayoappear kama sharp lines kwenye continuous background, huproduced wakati high-energy electrons zinapobombard metal target. Ni ipi kati ya following processes inayoresult katika characteristic X rays? A) Electrons zinazoproduce Čerenkov radiation B) Electrons zinazocollide na phonons kwenye metal C) Electrons zinazofill inner shell vacancies ambazo zinacreated katika metal atoms D) Electrons zikicombine na protons kuform neutrons",
+        "100": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.25,
+        "50": 0.554,
+        "75": 0.701
+      },
+      "retention": {
+        "25": 0.787,
+        "50": 0.383,
+        "75": 0.213
+      }
+    }
+  ]
+}

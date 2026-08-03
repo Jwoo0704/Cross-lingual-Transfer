@@ -1,0 +1,138 @@
+{
+  "anchor": {
+    "code": "yo",
+    "name": "Yoruba",
+    "morphology": "isolating",
+    "word_order": "SVO",
+    "script": "latin",
+    "resource": "low",
+    "translation": "human"
+  },
+  "items": [
+    {
+      "sample_id": "clinical_knowledge/test/65",
+      "answer": "D",
+      "anchor_text": "Ninu mọnamọna hàìpòvóléémìkì, ipin ogorun ẹjẹ wo ni o le padanu ṣaaju ki o han ni awọn iyipada ninu oṣuwọn ọkan ati titẹ ẹjẹ? A) 5% B) 10% C) 20% D) 30%",
+      "english_text": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%",
+      "stages": {
+        "0": "Ninu mọnamọna hàìpòvóléémìkì, ipin ogorun ẹjẹ wo ni o le padanu ṣaaju ki o han ni awọn iyipada ninu oṣuwọn ọkan ati titẹ ẹjẹ? A) 5% B) 10% C) 20% D) 30%",
+        "25": "Ninu hypovolaemic shock, ipin ogorun ẹjẹ wo ni o le padanu ṣaaju ki o han ni awọn iyipada ninu heart rate ati titẹ ẹjẹ? A) 5% B) 10% C) 20% D) 30%",
+        "50": "Ninu hypovolaemic shock, percentage ẹjẹ wo ni o le padanu ṣaaju ki o han ni awọn iyipada ninu heart rate ati blood pressure? A) 5% B) 10% C) 20% D) 30%",
+        "75": "Ninu hypovolaemic shock, percentage blood wo ni o le lost ṣaaju ki o reflect ni awọn changes ninu heart rate ati blood pressure? A) 5% B) 10% C) 20% D) 30%",
+        "100": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.215,
+        "50": 0.36,
+        "75": 0.506
+      },
+      "retention": {
+        "25": 0.769,
+        "50": 0.654,
+        "75": 0.462
+      }
+    },
+    {
+      "sample_id": "high_school_mathematics/test/48",
+      "answer": "D",
+      "anchor_text": "John pin awọn pinni fila iranti rẹ si awọn opo meji. Awọn meji piles ní ohun dogba nọmba ti awọn pinni. Ó fún arákùnrin rẹ̀ ní ìdá kan nínú ìdá mẹ́ta òkìtì kan. John ní 66 pinni sosi. Awọn pinni melo ni John ni ni akọkọ? A) 792 B) 66 C) 396 D) 72",
+      "english_text": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72",
+      "stages": {
+        "0": "John pin awọn pinni fila iranti rẹ si awọn opo meji. Awọn meji piles ní ohun dogba nọmba ti awọn pinni. Ó fún arákùnrin rẹ̀ ní ìdá kan nínú ìdá mẹ́ta òkìtì kan. John ní 66 pinni sosi. Awọn pinni melo ni John ni ni akọkọ? A) 792 B) 66 C) 396 D) 72",
+        "25": "John divided awọn pinni souvenir hat rẹ si awọn opo meji. Awọn meji piles ní ohun equal nọmba ti awọn pinni. Ó fún brother rẹ̀ ní ìdá kan nínú ìdá mẹ́ta òkìtì kan. John ní 66 pinni sosi. Awọn pinni melo ni John ni ni originally? A) 792 B) 66 C) 396 D) 72",
+        "50": "John divided awọn pins souvenir hat rẹ si awọn piles meji. Awọn meji piles ní equal number ti awọn pins. Ó gave brother rẹ̀ ní one-half nínú one-third pile kan. John ní 66 pins left. Awọn pins melo ni John ni ni originally? A) 792 B) 66 C) 396 D) 72",
+        "75": "John divided awọn pins souvenir hat rẹ si awọn piles two. Awọn two piles had equal number ti awọn pins. Ó gave brother rẹ̀ ní one-half nínú one-third pile one. John had 66 pins left. Awọn pins melo ni John have ni originally? A) 792 B) 66 C) 396 D) 72",
+        "100": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.23,
+        "50": 0.544,
+        "75": 0.628
+      },
+      "retention": {
+        "25": 0.774,
+        "50": 0.452,
+        "75": 0.387
+      }
+    },
+    {
+      "sample_id": "professional_medicine/test/169",
+      "answer": "B",
+      "anchor_text": "Ọkùnrin tó jẹ́ ọmọ-ọdún-57 gba ìtọ́jú arannilọ́wọ́ radiásọ́nù fún ìṣù ọ̀rá hóró squamous ti ẹ̀dọ̀fóró, botilẹ̀jẹ́ wí pé òún lo ìtọ́jú arannilọ́wọ́, títóbi ìṣù ọ̀rá yìí kàn ń tẹ̀síwájú si, tí ó sì kú lẹ́yìn oṣù 6. Hóró ìṣù ọ̀rá rẹ̀ ní ìyípadà àbùdá tó pẹ̀lú ìrọ́pò àfikún àti ìyọkúrò nínú p53 àbùdá náà (TP53), tó yọrí sí àìlápọn ohun èlò àbùdá. Tó dá lórí àwárí yìí, ìṣù ọ̀rá tó ń tóbi si lẹ́yì ìtọ́jú arannilọ́wọ́ radiásọ́nù ní ìṣeéṣe láti ní ìbátan sí àlébù nínú ìdádúró ìyípo hóró nínú àwọn ìpele ìyípo hóró wo? A) G0 B) G1 C) G2 D) M",
+      "english_text": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M",
+      "stages": {
+        "0": "Ọkùnrin tó jẹ́ ọmọ-ọdún-57 gba ìtọ́jú arannilọ́wọ́ radiásọ́nù fún ìṣù ọ̀rá hóró squamous ti ẹ̀dọ̀fóró, botilẹ̀jẹ́ wí pé òún lo ìtọ́jú arannilọ́wọ́, títóbi ìṣù ọ̀rá yìí kàn ń tẹ̀síwájú si, tí ó sì kú lẹ́yìn oṣù 6. Hóró ìṣù ọ̀rá rẹ̀ ní ìyípadà àbùdá tó pẹ̀lú ìrọ́pò àfikún àti ìyọkúrò nínú p53 àbùdá náà (TP53), tó yọrí sí àìlápọn ohun èlò àbùdá. Tó dá lórí àwárí yìí, ìṣù ọ̀rá tó ń tóbi si lẹ́yì ìtọ́jú arannilọ́wọ́ radiásọ́nù ní ìṣeéṣe láti ní ìbátan sí àlébù nínú ìdádúró ìyípo hóró nínú àwọn ìpele ìyípo hóró wo? A) G0 B) G1 C) G2 D) M",
+        "25": "Ọkùnrin tó jẹ́ ọmọ-ọdún-57 gba radiation therapy fún squamous cell carcinoma ti ẹ̀dọ̀fóró, botilẹ̀jẹ́ wí pé òún lo ìtọ́jú arannilọ́wọ́, títóbi tumor yìí kàn ń tẹ̀síwájú si, tí ó sì kú lẹ́yìn oṣù 6. Tumor cells rẹ̀ ní mutation nínú p53 gene (TP53), tó yọrí sí inactive gene product. Tó dá lórí finding yìí, tumor tó ń tóbi si lẹ́yìn radiation therapy ní ìṣeéṣe láti ní ìbátan sí defect nínú cell cycle arrest nínú àwọn ìpele ìyípo hóró wo? A) G0 B) G1 C) G2 D) M",
+        "50": "Man tó jẹ́ 57-year-old receives radiation therapy fún squamous cell carcinoma ti lung, despite wí pé òún lo therapy, size ti tumor yìí kàn ń progressively increase, tí ó sì die lẹ́yìn 6 months. Tumor cells rẹ̀ contain point mutation nínú p53 gene (TP53), tó yọrí sí inactive gene product. Based lórí finding yìí, progressive tumor growth lẹ́yìn radiation therapy ní likelihood láti be related sí defect nínú cell cycle arrest nínú wo nínú àwọn phases ti cell cycle? A) G0 B) G1 C) G2 D) M",
+        "75": "Man tó jẹ́ 57-year-old receives radiation therapy fún squamous cell carcinoma ti lung. Despite therapy, size ti tumor yìí ń progressively increase, tí ó sì die 6 months later. Tumor cells rẹ̀ contain point mutation nínú p53 gene (TP53), tó lead sí inactive gene product. Based lórí finding yìí, progressive tumor growth despite radiation therapy is most likely to be related sí defect nínú cell cycle arrest nínú wo ti àwọn phases ti cell cycle? A) G0 B) G1 C) G2 D) M",
+        "100": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.27,
+        "50": 0.613,
+        "75": 0.748
+      },
+      "retention": {
+        "25": 0.727,
+        "50": 0.377,
+        "75": 0.234
+      }
+    },
+    {
+      "sample_id": "medical_genetics/test/15",
+      "answer": "A",
+      "anchor_text": "Àń lo QTL analysis láti A) ṣe ìdámọ̀ chromosome regions tí ó so mọ́ complex trait nínu genetic cross B) ṣe ìpinu àwọn jíìnì tí a ṣe àfihàn láti ìpele ìbẹ̀rẹ̀pẹ̀pẹ̀ C) ṣe ètò àwọn jíìnì nínu àwọn kòkòrò ààrùn D) ṣe ìdámọ̀ àwọn RNA polymerase binding sites",
+      "english_text": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites",
+      "stages": {
+        "0": "Àń lo QTL analysis láti A) ṣe ìdámọ̀ chromosome regions tí ó so mọ́ complex trait nínu genetic cross B) ṣe ìpinu àwọn jíìnì tí a ṣe àfihàn láti ìpele ìbẹ̀rẹ̀pẹ̀pẹ̀ C) ṣe ètò àwọn jíìnì nínu àwọn kòkòrò ààrùn D) ṣe ìdámọ̀ àwọn RNA polymerase binding sites",
+        "25": "Àń lo QTL analysis láti A) identify chromosome regions tí ó so mọ́ complex trait nínu genetic cross B) ṣe ìpinu àwọn genes tí a ṣe àfihàn láti ìpele ìbẹ̀rẹ̀pẹ̀ C) ṣe ètò àwọn jíìnì nínu àwọn bacterial viruses D) ṣe ìdámọ̀ àwọn RNA polymerase binding sites",
+        "50": "Àń lo QTL analysis láti A) identify chromosome regions tí ó so mọ́ complex trait nínu genetic cross B) determine àwọn genes tí a expressed láti ìpele ìbẹ̀rẹ̀pẹ̀ C) map àwọn genes nínu àwọn bacterial viruses D) identify àwọn RNA polymerase binding sites",
+        "75": "Àń lo QTL analysis láti A) identify chromosome regions tí ó associated mọ́ complex trait nínu genetic cross B) determine àwọn genes tí a expressed láti developmental stage C) map àwọn genes nínu àwọn bacterial viruses D) identify àwọn RNA polymerase binding sites",
+        "100": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.195,
+        "50": 0.378,
+        "75": 0.581
+      },
+      "retention": {
+        "25": 0.92,
+        "50": 0.64,
+        "75": 0.4
+      }
+    },
+    {
+      "sample_id": "college_physics/test/20",
+      "answer": "C",
+      "anchor_text": "Ìṣesí X rays, tó farahàn bi ìlà mímú lórí àgbétélè ní tẹ̀léntẹ̀lé, yóò sẹ́ ti agbára ẹ̀lẹ́kítírọ́ọ̀nù bá gíga bá kọ ìkọlù bo irin tó fojúsún. Ewo nínú àwọn wọ̀nyí ló ṣètò èsì nínú ìṣesí X rays? A) Ẹ̀lẹ́kítírọ́ọ̀nù tó ṣe àmújáde ìmọ́ọ́rùn Čerenko B) Ẹ̀lẹ́kítírọ́ọ̀nù tó kọlù fónọ́ọ̀nù nínú irin C) Ẹ̀lẹ́kítírọ́ọ̀n tó ń kún kòròfo ikarahun tó ṣẹ́dá láti inú irin átọ́mù D) Ẹ̀lẹ́kítírọ́ọ̀n bá darapọ̀ mọ́ pírótọ́ọ̀nù láti ṣẹ̀dà nútíríọ́nù",
+      "english_text": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons",
+      "stages": {
+        "0": "Ìṣesí X rays, tó farahàn bi ìlà mímú lórí àgbétélè ní tẹ̀léntẹ̀lé, yóò sẹ́ ti agbára ẹ̀lẹ́kítírọ́ọ̀nù bá gíga bá kọ ìkọlù bo irin tó fojúsún. Ewo nínú àwọn wọ̀nyí ló ṣètò èsì nínú ìṣesí X rays? A) Ẹ̀lẹ́kítírọ́ọ̀nù tó ṣe àmújáde ìmọ́ọ́rùn Čerenko B) Ẹ̀lẹ́kítírọ́ọ̀nù tó kọlù fónọ́ọ̀nù nínú irin C) Ẹ̀lẹ́kítírọ́ọ̀n tó ń kún kòròfo ikarahun tó ṣẹ́dá láti inú irin átọ́mù D) Ẹ̀lẹ́kítírọ́ọ̀n bá darapọ̀ mọ́ pírótọ́ọ̀nù láti ṣẹ̀dà nútíríọ́nù",
+        "25": "Characteristic X rays, tó farahàn bi ìlà sharp lórí background ní tẹ̀léntẹ̀lé, yóò sẹ́ ti agbára ẹ̀lẹ́kítírọ́ọ̀nù bá gíga bá kọ ìkọlù bo metal tó fojúsún. Ewo nínú àwọn wọ̀nyí ló ṣètò èsì nínú Characteristic X rays? A) Ẹ̀lẹ́kítírọ́ọ̀nù tó ṣe àmújáde radiation Čerenko B) Ẹ̀lẹ́kítírọ́ọ̀nù tó kọlù fónọ́ọ̀nù nínú metal C) Ẹ̀lẹ́kítírọ́ọ̀n tó ń kún vacancies ikarahun tó ṣẹ́dá láti inú metal átọ́mù D) Ẹ̀lẹ́kítírọ́ọ̀n bá darapọ̀ mọ́ pírótọ́ọ̀nù láti ṣẹ̀dà neutrons",
+        "50": "Characteristic X rays, tó appearing bi ìlà sharp lórí background ní tẹ̀léntẹ̀lé, yóò sẹ́ ti energy electrons bá high bá kọ ìkọlù bo metal tó target. Ewo nínú àwọn wọ̀nyí ló ṣètò èsì nínú Characteristic X rays? A) Electrons tó ṣe àmújáde radiation Čerenko B) Electrons tó kọlù fónọ́ọ̀nù nínú metal C) Electrons tó ń kún vacancies shell tó ṣẹ́dá láti inú metal átọ́mù D) Electrons bá darapọ̀ mọ́ protons láti ṣẹ̀dà neutrons",
+        "75": "Characteristic X rays, tó appearing bi lines sharp lórí background ní continuous, yóò produced ti energy electrons bá high bá bombarding bo metal tó target. Ewo nínú àwọn wọ̀nyí ló result process nínú Characteristic X rays? A) Electrons tó ṣe production radiation Čerenko B) Electrons tó colliding phonons nínú metal C) Electrons tó ń filling vacancies shell tó created láti inú metal atoms D) Electrons bá combining mọ́ protons láti form neutrons",
+        "100": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.164,
+        "50": 0.321,
+        "75": 0.602
+      },
+      "retention": {
+        "25": 0.852,
+        "50": 0.705,
+        "75": 0.377
+      }
+    }
+  ]
+}

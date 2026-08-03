@@ -1,0 +1,138 @@
+{
+  "anchor": {
+    "code": "de",
+    "name": "German",
+    "morphology": "fusional",
+    "word_order": "SVO",
+    "script": "latin",
+    "resource": "high",
+    "translation": "human"
+  },
+  "items": [
+    {
+      "sample_id": "clinical_knowledge/test/65",
+      "answer": "D",
+      "anchor_text": "Wie viel Prozent des Blutes kann bei einem hypovolämischen Schock verloren gehen, bevor sich dies in Veränderungen der Herzfrequenz und des Blutdrucks bemerkbar macht? A) 5 % B) 10 % C) 20 % D) 30 %",
+      "english_text": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%",
+      "stages": {
+        "0": "Wie viel Prozent des Blutes kann bei einem hypovolämischen Schock verloren gehen, bevor sich dies in Veränderungen der Herzfrequenz und des Blutdrucks bemerkbar macht? A) 5 % B) 10 % C) 20 % D) 30 %",
+        "25": "Wie viel Prozent des Blutes kann bei einem hypovolämischen Schock lost gehen, bevor sich dies in Veränderungen der heart rate und des blood pressure bemerkbar macht? A) 5 % B) 10 % C) 20 % D) 30 %",
+        "50": "Wie viel percent des bloods kann bei einem hypovolemic shock lost gehen, bevor sich dies in changes der heart rate und des blood pressure bemerkbar macht? A) 5 % B) 10 % C) 20 % D) 30 %",
+        "75": "Wie viel percent des bloods can bei einem hypovolemic shock lost go, bevor sich dies in changes der heart rate und des blood pressure noticeable macht? A) 5 % B) 10 % C) 20 % D) 30 %",
+        "100": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.243,
+        "50": 0.379,
+        "75": 0.471
+      },
+      "retention": {
+        "25": 0.864,
+        "50": 0.636,
+        "75": 0.5
+      }
+    },
+    {
+      "sample_id": "high_school_mathematics/test/48",
+      "answer": "D",
+      "anchor_text": "John teilte seine Souvenir-Hutanstecker auf zwei Stapel auf. Die beiden Stapel hatten die gleiche Anzahl von Ansteckern. Er gab seinem Bruder die Hälfte eines Drittels des einen Stapels. John hatte 66 Anstecknadeln übrig. Wie viele Anstecknadeln hatte John ursprünglich? A) 792.0 B) 66.0 C) 396.0 D) 72.0",
+      "english_text": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72",
+      "stages": {
+        "0": "John teilte seine Souvenir-Hutanstecker auf zwei Stapel auf. Die beiden Stapel hatten die gleiche Anzahl von Ansteckern. Er gab seinem Bruder die Hälfte eines Drittels des einen Stapels. John hatte 66 Anstecknadeln übrig. Wie viele Anstecknadeln hatte John ursprünglich? A) 792.0 B) 66.0 C) 396.0 D) 72.0",
+        "25": "John teilte seine souvenir hat pins auf zwei Stapel auf. Die beiden Stapel hatten die gleiche Anzahl von Ansteckern. Er gab seinem brother die Hälfte eines Drittels des einen Stapels. John hatte 66 pins übrig. Wie viele Anstecknadeln hatte John originally? A) 792.0 B) 66.0 C) 396.0 D) 72.0",
+        "50": "John divided seine souvenir hat pins auf zwei piles auf. Die beiden piles hatten die equal number von pins. Er gab seinem brother die half eines Drittels des einen pile. John hatte 66 pins übrig. Wie viele pins hatte John originally? A) 792.0 B) 66.0 C) 396.0 D) 72.0",
+        "75": "John divided seine souvenir hat pins auf zwei piles auf. Die two piles had die equal number von pins. Er gave seinem brother die half eines third des einen pile. John had 66 pins left. Wie many pins had John originally? A) 792.0 B) 66.0 C) 396.0 D) 72.0",
+        "100": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.146,
+        "50": 0.378,
+        "75": 0.606
+      },
+      "retention": {
+        "25": 0.9,
+        "50": 0.633,
+        "75": 0.4
+      }
+    },
+    {
+      "sample_id": "professional_medicine/test/169",
+      "answer": "B",
+      "anchor_text": "Ein 57-jähriger Mann erhält zur Behandlung eines Plattenepithelkarzinoms der Lunge eine Strahlentherapie. Trotz der Therapie wird der Tumor immer größer und der Patient verstirbt 6 Monate später. Seine Tumorzellen wiesen eine Punktmutation des p53-Gens (TP53) auf, wodurch das Genprodukt nicht aktiviert wurde. Basierend auf diesen Befunden kam es aufgrund einer Störung des Zellzyklusarrests in welcher der folgenden Phasen des Zellzyklus zu dem progressiven Tumorwachstum trotz der Strahlentherapie? A) G0 B) G1 C) G2 D) M",
+      "english_text": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M",
+      "stages": {
+        "0": "Ein 57-jähriger Mann erhält zur Behandlung eines Plattenepithelkarzinoms der Lunge eine Strahlentherapie. Trotz der Therapie wird der Tumor immer größer und der Patient verstirbt 6 Monate später. Seine Tumorzellen wiesen eine Punktmutation des p53-Gens (TP53) auf, wodurch das Genprodukt nicht aktiviert wurde. Basierend auf diesen Befunden kam es aufgrund einer Störung des Zellzyklusarrests in welcher der folgenden Phasen des Zellzyklus zu dem progressiven Tumorwachstum trotz der Strahlentherapie? A) G0 B) G1 C) G2 D) M",
+        "25": "Ein 57-jähriger Mann erhält zur treatment eines squamous cell carcinoma der Lunge eine radiation therapy. Trotz der Therapie wird der Tumor immer größer und der Patient verstirbt 6 Monate später. Seine Tumorzellen wiesen eine point mutation des p53-Gens (TP53) auf, wodurch das Genprodukt nicht aktiviert wurde. Basierend auf diesen Befunden kam es aufgrund einer Störung des cell cycle arrest in welcher der folgenden Phasen des cell cycle zu dem progressiven Tumorwachstum trotz der radiation therapy? A) G0 B) G1 C) G2 D) M",
+        "50": "Ein 57-year-old man receives zur treatment eines squamous cell carcinoma der lung eine radiation therapy. Trotz der therapy wird der Tumor immer größer und der Patient dies 6 Monate später. Seine tumor cells wiesen eine point mutation des p53 gene (TP53) auf, wodurch das gene product nicht aktiviert wurde. Basierend auf diesen Befunden kam es aufgrund einer Störung des cell cycle arrest in welcher der following phases des cell cycle zu dem progressiven tumor growth trotz der radiation therapy? A) G0 B) G1 C) G2 D) M",
+        "75": "Ein 57-year-old man receives zur treatment eines squamous cell carcinoma der lung eine radiation therapy. Trotz der therapy wird der tumor progressively larger und der patient dies 6 months later. Seine tumor cells showed eine point mutation des p53 gene (TP53) auf, wodurch das gene product nicht activated wurde. Based auf diesen findings kam es aufgrund einer defect des cell cycle arrest in welcher der following phases des cell cycle zu dem progressive tumor growth trotz der radiation therapy? A) G0 B) G1 C) G2 D) M",
+        "100": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.166,
+        "50": 0.386,
+        "75": 0.534
+      },
+      "retention": {
+        "25": 0.885,
+        "50": 0.654,
+        "75": 0.462
+      }
+    },
+    {
+      "sample_id": "medical_genetics/test/15",
+      "answer": "A",
+      "anchor_text": "Die QTL-Analyse wird verwendet, um A) Chromosomenregionen, die mit einem komplexen Merkmal in einer genetischen Kreuzung verbunden sind, zu identifizieren B) zu bestimmen, welche Gene in einem bestimmten Entwicklungsstadium exprimiert werden C) Gene in bakteriellen Viren abzubilden D) RNA-Polymerase-Bindungsstellen zu identifizieren",
+      "english_text": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites",
+      "stages": {
+        "0": "Die QTL-Analyse wird verwendet, um A) Chromosomenregionen, die mit einem komplexen Merkmal in einer genetischen Kreuzung verbunden sind, zu identifizieren B) zu bestimmen, welche Gene in einem bestimmten Entwicklungsstadium exprimiert werden C) Gene in bakteriellen Viren abzubilden D) RNA-Polymerase-Bindungsstellen zu identifizieren",
+        "25": "Die QTL-Analyse wird verwendet, um A) Chromosomenregionen, die mit einem komplexen trait in einer genetischen cross verbunden sind, zu identifizieren B) zu bestimmen, welche Gene in einem bestimmten developmental stage exprimiert werden C) Gene in bakteriellen viruses abzubilden D) RNA-Polymerase-binding sites zu identifizieren",
+        "50": "Die QTL analysis wird used, um A) chromosome regions, die mit einem complex trait in einer genetic cross verbunden sind, zu identifizieren B) zu bestimmen, welche genes in einem bestimmten developmental stage exprimiert werden C) genes in bacterial viruses abzubilden D) RNA polymerase binding sites zu identifizieren",
+        "75": "Die QTL analysis wird used, um A) chromosome regions, die mit einem complex trait in einer genetic cross associated sind, zu identify B) zu determine, welche genes in einem bestimmten developmental stage expressed werden C) genes in bacterial viruses zu map D) RNA polymerase binding sites zu identify",
+        "100": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.247,
+        "50": 0.502,
+        "75": 0.662
+      },
+      "retention": {
+        "25": 0.821,
+        "50": 0.571,
+        "75": 0.393
+      }
+    },
+    {
+      "sample_id": "college_physics/test/20",
+      "answer": "C",
+      "anchor_text": "Charakteristische Röntgenstrahlen, die als scharfe Linien auf einem kontinuierlichen Hintergrund erscheinen, werden erzeugt, wenn hochenergetische Elektronen ein Metalltarget beschießen. Welcher der folgenden Prozesse führt zu den charakteristischen Röntgenstrahlen? A) Elektronen, die Čerenkov-Strahlung erzeugen B) Elektronen kollidieren mit Phononen im Metall C) Elektronen, die die in den Metallatomen entstandenen Leerstellen in der inneren Schale füllen D) Elektronen verbinden sich mit Protonen und bilden Neutronen",
+      "english_text": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons",
+      "stages": {
+        "0": "Charakteristische Röntgenstrahlen, die als scharfe Linien auf einem kontinuierlichen Hintergrund erscheinen, werden erzeugt, wenn hochenergetische Elektronen ein Metalltarget beschießen. Welcher der folgenden Prozesse führt zu den charakteristischen Röntgenstrahlen? A) Elektronen, die Čerenkov-Strahlung erzeugen B) Elektronen kollidieren mit Phononen im Metall C) Elektronen, die die in den Metallatomen entstandenen Leerstellen in der inneren Schale füllen D) Elektronen verbinden sich mit Protonen und bilden Neutronen",
+        "25": "Characteristic Röntgenstrahlen, die als sharp Linien auf einem kontinuierlichen Hintergrund erscheinen, werden erzeugt, wenn high-energy Elektronen ein Metalltarget beschießen. Welcher der folgenden processes führt zu den charakteristischen Röntgenstrahlen? A) Elektronen, die Čerenkov radiation erzeugen B) Elektronen collide mit Phononen im Metall C) Elektronen, die die in den Metallatomen entstandenen vacancies in der inneren Schale füllen D) Elektronen combine sich mit Protonen und bilden Neutronen",
+        "50": "Characteristic X-rays, die als sharp lines auf einem kontinuierlichen background erscheinen, werden produced, wenn high-energy electrons ein metal target beschießen. Welcher der following processes führt zu den characteristic X-rays? A) Electrons, die Čerenkov radiation erzeugen B) Electrons collide mit phonons im metal C) Electrons, die die in den Metallatomen entstandenen vacancies in der inner shell füllen D) Electrons combine sich mit protons und bilden neutrons",
+        "75": "Characteristic X-rays, die als sharp lines auf einem continuous background appear, werden produced, wenn high-energy electrons ein metal target bombard. Welcher der following processes leads zu den characteristic X-rays? A) Electrons, die Čerenkov radiation produce B) Electrons collide mit phonons im metal C) Electrons, die die in den metal atoms created vacancies in der inner shell fill D) Electrons combine sich mit protons und form neutrons",
+        "100": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.168,
+        "50": 0.489,
+        "75": 0.655
+      },
+      "retention": {
+        "25": 0.826,
+        "50": 0.522,
+        "75": 0.326
+      }
+    }
+  ]
+}

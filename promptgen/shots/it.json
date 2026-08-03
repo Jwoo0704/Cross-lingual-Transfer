@@ -1,0 +1,138 @@
+{
+  "anchor": {
+    "code": "it",
+    "name": "Italian",
+    "morphology": "fusional",
+    "word_order": "SVO",
+    "script": "latin",
+    "resource": "high",
+    "translation": "human"
+  },
+  "items": [
+    {
+      "sample_id": "clinical_knowledge/test/65",
+      "answer": "D",
+      "anchor_text": "Nello shock ipovolemico, qual è la percentuale di sangue che può andare perduta prima che si rifletta in alterazioni della frequenza cardiaca e della pressione arteriosa? A) 5% B) 10% C) 20% D) 30%",
+      "english_text": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%",
+      "stages": {
+        "0": "Nello shock ipovolemico, qual è la percentuale di sangue che può andare perduta prima che si rifletta in alterazioni della frequenza cardiaca e della pressione arteriosa? A) 5% B) 10% C) 20% D) 30%",
+        "25": "Nello shock hypovolaemic, qual è la percentuale di blood che può andare perduta prima che si rifletta in changes della frequenza cardiaca e della pressione arteriosa? A) 5% B) 10% C) 20% D) 30%",
+        "50": "Nello shock hypovolaemic, qual è la percentage di blood che può andare lost prima che si rifletta in changes della heart rate e della pressione arteriosa? A) 5% B) 10% C) 20% D) 30%",
+        "75": "Nello shock hypovolaemic, qual è la percentage di blood che can be lost prima che si reflect in changes della heart rate e della blood pressure? A) 5% B) 10% C) 20% D) 30%",
+        "100": "In hypovolaemic shock, what percentage of blood can be lost before it is reflected in changes in heart rate and blood pressure? A) 5% B) 10% C) 20% D) 30%"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.17,
+        "50": 0.377,
+        "75": 0.564
+      },
+      "retention": {
+        "25": 0.864,
+        "50": 0.682,
+        "75": 0.455
+      }
+    },
+    {
+      "sample_id": "high_school_mathematics/test/48",
+      "answer": "D",
+      "anchor_text": "John ha diviso le forcine da cappello come souvenir in due mucchi. I due mucchi avevano lo stesso numero di forcine. H dato a suo fratello la metà di un terzo di un mucchio. A John erano rimaste 66 forcine. Quante forcine aveva originariamente John? A) 792 B) 66 C) 396 D) 72",
+      "english_text": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72",
+      "stages": {
+        "0": "John ha diviso le forcine da cappello come souvenir in due mucchi. I due mucchi avevano lo stesso numero di forcine. H dato a suo fratello la metà di un terzo di un mucchio. A John erano rimaste 66 forcine. Quante forcine aveva originariamente John? A) 792 B) 66 C) 396 D) 72",
+        "25": "John ha divided le forcine da cappello come souvenir in due piles. I due piles avevano lo stesso numero di forcine. H dato a suo brother la metà di un terzo di un pile. A John erano rimaste 66 forcine. Quante forcine aveva originally John? A) 792 B) 66 C) 396 D) 72",
+        "50": "John ha divided le pins da cappello come souvenir in due piles. I due piles had lo stesso number di pins. H given a suo brother la half di un terzo di un pile. A John erano left 66 pins. Quante pins aveva originally John? A) 792 B) 66 C) 396 D) 72",
+        "75": "John ha divided le hat pins come souvenir in two piles. I two piles had lo same number di pins. H given a suo brother la half di un third di un pile. A John erano left 66 pins. How many pins had originally John? A) 792 B) 66 C) 396 D) 72",
+        "100": "John divided his souvenir hat pins into two piles. The two piles had an equal number of pins. He gave his brother one-half of one-third of one pile. John had 66 pins left. How many pins did John originally have? A) 792 B) 66 C) 396 D) 72"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.188,
+        "50": 0.378,
+        "75": 0.591
+      },
+      "retention": {
+        "25": 0.833,
+        "50": 0.633,
+        "75": 0.4
+      }
+    },
+    {
+      "sample_id": "professional_medicine/test/169",
+      "answer": "B",
+      "anchor_text": "Un uomo di 57 anni viene sottoposto a radioterapia per un carcinoma polmonare a cellule squamose. Nonostante la terapia, il tumore aumenta progressivamente di dimensioni e l’uomo muore 6 mesi dopo. Le sue cellule tumorali contengono una mutazione puntiforme nel gene p53 (TP53), che determina la produzione di un prodotto genico inattivo. In base a questo riscontro, la progressiva crescita tumorale nonostante la radioterapia è molto probabilmente correlata a un difetto nell’arresto del ciclo cellulare in quale delle seguenti fasi del ciclo cellulare? A) G0 B) G1 C) G2 D) M",
+      "english_text": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M",
+      "stages": {
+        "0": "Un uomo di 57 anni viene sottoposto a radioterapia per un carcinoma polmonare a cellule squamose. Nonostante la terapia, il tumore aumenta progressivamente di dimensioni e l’uomo muore 6 mesi dopo. Le sue cellule tumorali contengono una mutazione puntiforme nel gene p53 (TP53), che determina la produzione di un prodotto genico inattivo. In base a questo riscontro, la progressiva crescita tumorale nonostante la radioterapia è molto probabilmente correlata a un difetto nell’arresto del ciclo cellulare in quale delle seguenti fasi del ciclo cellulare? A) G0 B) G1 C) G2 D) M",
+        "25": "Un man di 57 anni viene sottoposto a radiation therapy per un carcinoma polmonare a cellule squamose. Nonostante la terapia, il tumor aumenta progressivamente di dimensioni e l’uomo muore 6 mesi dopo. Le sue tumor cells contengono una point mutation nel gene p53 (TP53), che determina la produzione di un inactive gene product. In base a questo riscontro, la progressiva crescita tumorale nonostante la radioterapia è molto probabilmente correlata a un defect nell’arresto del cell cycle in quale delle seguenti fasi del cell cycle? A) G0 B) G1 C) G2 D) M",
+        "50": "Un man di 57 years viene sottoposto a radiation therapy per un squamous cell carcinoma del lung. Nonostante la therapy, il tumor increases progressivamente di size e l’man dies 6 months dopo. Le sue tumor cells contain una point mutation nel gene p53 (TP53), che determina la production di un inactive gene product. In base a questo finding, la progressive tumor growth nonostante la radioterapia è molto probabilmente correlata a un defect nell’arresto del cell cycle in quale delle seguenti phases del cell cycle? A) G0 B) G1 C) G2 D) M",
+        "75": "Un man di 57 years viene subjected a radiation therapy per un squamous cell carcinoma lung. Nonostante la therapy, il tumor increases progressively di size e l’man dies 6 months dopo. Le sue tumor cells contain una point mutation nel gene p53 (TP53), che determines la production di un inactive gene product. In base a questo finding, la progressive tumor growth nonostante la radiation therapy è most likely related a un defect nell’arrest del cell cycle in quale delle following phases del cell cycle? A) G0 B) G1 C) G2 D) M",
+        "100": "A 57-year-old man receives radiation therapy for a squamous cell carcinoma of the lung. Despite therapy, the tumor progressively increases in size, and he dies 6 months later. His tumor cells contain a point mutation in the p53 gene (TP53), leading to an inactive gene product. Based on this finding, the progressive tumor growth despite irradiation therapy is most likely to be related to a defect in cell cycle arrest in which of the following phases of the cell cycle? A) G0 B) G1 C) G2 D) M"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.225,
+        "50": 0.463,
+        "75": 0.605
+      },
+      "retention": {
+        "25": 0.828,
+        "50": 0.534,
+        "75": 0.379
+      }
+    },
+    {
+      "sample_id": "medical_genetics/test/15",
+      "answer": "A",
+      "anchor_text": "L’analisi QTL viene usata per A) identificare regioni cromosomiche associate a un tratto complesso in un incrocio genetico B) determinare quali geni sono espressi in una determinata fase di sviluppo C) mappare geni nei virus batterici D) identificare siti di legame dell’RNA polimerasi",
+      "english_text": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites",
+      "stages": {
+        "0": "L’analisi QTL viene usata per A) identificare regioni cromosomiche associate a un tratto complesso in un incrocio genetico B) determinare quali geni sono espressi in una determinata fase di sviluppo C) mappare geni nei virus batterici D) identificare siti di legame dell’RNA polimerasi",
+        "25": "L’analysis QTL viene usata per A) identify regioni cromosomiche associate a un trait complesso in un incrocio genetico B) determinare quali genes sono espressi in una determinata fase di sviluppo C) map geni nei virus batterici D) identificare sites di legame dell’RNA polimerasi",
+        "50": "L’analysis QTL viene used per A) identify regions cromosomiche associated a un trait complesso in un incrocio genetico B) determine quali genes sono expressed in una determinata fase di sviluppo C) map geni nei virus batterici D) identificare sites di binding dell’RNA polimerasi",
+        "75": "L’analysis QTL viene used per A) identify regions cromosomiche associated a un trait complex in un cross genetico B) determine quali genes sono expressed in una determinata fase di development C) map genes nei viruses batterici D) identify sites di binding dell’RNA polymerase",
+        "100": "QTL analysis is used to A) identify chromosome regions associated with a complex trait in a genetic cross B) determine which genes are expressed at a developmental stage C) map genes in bacterial viruses D) identify RNA polymerase binding sites"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.203,
+        "50": 0.393,
+        "75": 0.558
+      },
+      "retention": {
+        "25": 0.875,
+        "50": 0.688,
+        "75": 0.469
+      }
+    },
+    {
+      "sample_id": "college_physics/test/20",
+      "answer": "C",
+      "anchor_text": "I caratteristici raggi X che appaiono come linee nitide su uno sfondo uniforme vengono prodotti quando elettroni ad alta energia bombardano un bersaglio metallico. Quale dei seguenti processi produce i caratteristici raggi X? A) Gli elettroni che producono la radiazione di Čerenkov B) Gli elettroni che collidono con i fononi presenti nel metallo C) Gli elettroni che riempiono gli spazi vuoti negli strati interni creati negli atomi metallici D) Gli elettroni che si combinano con i protoni per formare neutroni",
+      "english_text": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons",
+      "stages": {
+        "0": "I caratteristici raggi X che appaiono come linee nitide su uno sfondo uniforme vengono prodotti quando elettroni ad alta energia bombardano un bersaglio metallico. Quale dei seguenti processi produce i caratteristici raggi X? A) Gli elettroni che producono la radiazione di Čerenkov B) Gli elettroni che collidono con i fononi presenti nel metallo C) Gli elettroni che riempiono gli spazi vuoti negli strati interni creati negli atomi metallici D) Gli elettroni che si combinano con i protoni per formare neutroni",
+        "25": "I characteristic raggi X che appaiono come linee nitide su uno background uniforme vengono prodotti quando elettroni ad alta energia bombardano un metal target. Quale dei seguenti processes produce i characteristic raggi X? A) Gli elettroni che producono la radiazione di Čerenkov B) Gli elettroni che collidono con i phonons presenti nel metallo C) Gli elettroni che riempiono le vacancies negli strati interni creati negli atomi metallici D) Gli elettroni che si combinano con i protoni per form neutrons",
+        "50": "I characteristic rays X che appaiono come linee nitide su uno background uniforme vengono produced quando electrons ad high energy bombard un metal target. Quale dei seguenti processes produce i characteristic rays X? A) Gli electrons che producono la radiazione di Čerenkov B) Gli electrons che collidono con i phonons presenti nel metal C) Gli electrons che riempiono le vacancies negli strati interni creati negli atomi metallici D) Gli electrons che si combinano con i protons per form neutrons",
+        "75": "I characteristic rays X che appear come sharp lines su uno continuous background vengono produced quando electrons ad high energy bombard un metal target. Quale dei following processes produces i characteristic rays X? A) Gli electrons che produce la radiation di Čerenkov B) Gli electrons che collide con i phonons present nel metal C) Gli electrons che fill le vacancies negli inner shells created negli metal atoms D) Gli electrons che si combine con i protons per form neutrons",
+        "100": "Characteristic X rays, appearing as sharp lines on a continuous background, are produced when high-energy electrons bombard a metal target. Which of the following processes results in the characteristic X rays? A) Electrons producing Čerenkov radiation B) Electrons colliding with phonons in the metal C) Electrons filling inner shell vacancies that are created in the metal atoms D) Electrons combining with protons to form neutrons"
+      },
+      "stage_ratio": {
+        "0": 0.0,
+        "100": 1.0,
+        "25": 0.208,
+        "50": 0.364,
+        "75": 0.607
+      },
+      "retention": {
+        "25": 0.815,
+        "50": 0.667,
+        "75": 0.37
+      }
+    }
+  ]
+}
